@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " C ",
+    "BFB",
+    "BEB"
+  ],
+  "key": {
+    "C": {
+      "item": "scrapped:redstone_coil"
+    },
+    "B": {
+      "tag": "c:ingots/bronze"
+    },
+    "F": {
+      "item": "scrapped:dynamo_frame"
+    },
+    "E": {
+      "item": "immersiveengineering:component_electronic"
+    }
+  },
+  "result": {
+    "id": "scrapped:steam_dynamo",
+    "count": 1
+  }
+}

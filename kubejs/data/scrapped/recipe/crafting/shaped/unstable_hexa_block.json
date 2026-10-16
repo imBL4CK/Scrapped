@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "HHH",
+    "HHH",
+    "HHH"
+  ],
+  "key": {
+    "H": {
+      "item": "omni_util:unstable_hexa_ingot"
+    }
+  },
+  "result": {
+    "count": 1,
+    "id": "omni_util:unstable_hexa_block"
+  }
+}

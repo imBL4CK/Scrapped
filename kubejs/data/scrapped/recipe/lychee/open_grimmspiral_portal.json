@@ -1,0 +1,8 @@
+{
+    "type": "lychee:block_interacting",
+    "item_in": "omni_util:hexa_ingot",
+    "block_in": "minecraft:bedrock",
+    "post": [
+        "place omni_util:grimspiral"
+    ]
+}

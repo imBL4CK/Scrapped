@@ -1,0 +1,15 @@
+{
+  "type": "slag:table_casting",
+  "cast_item": {
+    "ingredient": {
+      "item": "scrapped:redstone_energy_cell_frame"
+    }
+  },
+  "ingredient": {
+    "tag": "c:molten/redstone",
+    "amount": 648
+  },
+  "result": {
+    "item": "scrapped:redstone_energy_cell"
+  }
+}

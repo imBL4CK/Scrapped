@@ -1,0 +1,20 @@
+{
+    "info.scrapped.hold_shift.0": "Hold §eShift§r for Details",
+    "info.scrapped.dump_fluid.0": "§ePress§r to dump the fluids from this container.",
+    "info.scrapped.dump_energy.0": "§ePress§r to dump the energy from this container.",
+    "info.scrapped.steam_dynamo.0": "§eIt produces energy from steam. If steam is not directly available, it is possible to use water and some type of fuel to generate steam internally.\n\n§6Block Stats:\n §9⚡ 64.000 Energy Capacity\n ⚡ 4.000 Energy Transfer",
+    "info.scrapped.magmatic_dynamo.0": "§eGenerates energy from lava or other fluids that are just as hot.\n\n§6Block Stats:\n §9⚡ 64.000 Energy Capacity\n ⚡ 4.000 Energy Transfer",
+    "info.scrapped.redstone_energy_cell.0": "§eA Redstone Energy Cell is a block capable of storing energy within its core.\n\n§6Block Stats:\n §9⚡ 512.000 Energy Capacity\n ⚡ 4.000 Energy Transfer",
+    "info.scrapped.bronze_drum.0": "§eA fluid container that can store up to 16 buckets. It retains its contents when broken.\n\n§6Block Stats:\n §9🪣 16.000 Fluid Capacity\n 🪣 1.000 Fluid Transfer",
+
+    "subtitles.techpack.machine_generic.running": "Machine Running",
+    "subtitles.techpack.machine_generic_heavy.running": "Heavy Machine Running",
+    "subtitles.techpack.machine_centrifuge.running": "Centrifuge Machine Running",
+    "subtitles.techpack.machine_crushing.running": "Crushing Machine Running",
+    "subtitles.techpack.machine_furnace.running": "Furnace Machine Running",
+    "subtitles.techpack.machine_press.running": "Press Machine Running",
+    "subtitles.techpack.machine_saw.running": "Cutting Machine Running",
+    "subtitles.techpack.machine_fluid_transposer.running": "Fluid Transposer Machine Running",
+
+    "fluid_type.biggerreactors.steam": "Steam"
+}

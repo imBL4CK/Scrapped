@@ -1,0 +1,23 @@
+{
+  "type": "enderio:alloy_smelting",
+  "energy": 5600,
+  "experience": 0.3,
+  "inputs": [
+    {
+      "tag": "c:ingots/silver",
+      "count": 1
+    },
+    {
+      "tag": "c:ingots/tin",
+      "count": 4
+    },
+    {
+      "item": "minecraft:glowstone_dust",
+      "count": 4
+    }
+  ],
+  "output": {
+    "id": "dynamiducts:lumium_ingot",
+    "count": 4
+  }
+}

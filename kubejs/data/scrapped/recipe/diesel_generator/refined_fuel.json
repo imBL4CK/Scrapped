@@ -1,0 +1,5 @@
+{
+  "type": "immersiveengineering:generator_fuel",
+  "burnTime": 500,
+  "fluidTag": "c:refined_fuel"
+}

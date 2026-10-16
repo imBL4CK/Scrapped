@@ -1,0 +1,22 @@
+{
+    "action": "remove",
+    "items": [
+        "create:wheat_flour",
+        "create:dough",
+        "dynamiducts:lead_ingot",
+        "dynamiducts:silver_ingot",
+        "dynamiducts:electrum_ingot",
+        "dynamiducts:lead_nugget",
+        "dynamiducts:silver_nugget",
+        "dynamiducts:electrum_nugget",
+        "omni_util:cataclysm_sigil",
+        "omni_util:blank_tablet",
+        "pneumaticcraft:wheat_flour",
+        "assemblytable:redstone_chipset_red",
+        "assemblytable:redstone_chipset_iron",
+        "assemblytable:redstone_chipset_gold",
+        "assemblytable:redstone_chipset_diamond",
+        "assemblytable:redstone_chipset_quartz",
+        "omni_util:grim_devour"
+    ]
+}

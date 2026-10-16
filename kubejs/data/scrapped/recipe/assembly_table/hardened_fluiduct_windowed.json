@@ -1,0 +1,22 @@
+{
+    "type": "assemblytable:assembly_table",
+    "energy": 16000,
+    "ingredients": [
+      {
+        "ingredient": {
+          "tag": "c:ingots/invar"
+        },
+        "count": 2
+      },
+      {
+        "ingredient": {
+          "item": "minecraft:tinted_glass"
+        },
+        "count": 1
+      }
+    ],
+    "result": {
+        "id": "dynamiducts:fluid_duct_hardened",
+        "count": 6
+    }
+}

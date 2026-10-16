@@ -1,0 +1,15 @@
+{
+  "type": "slag:table_casting",
+  "cast_item": {
+    "ingredient": {
+      "item": "dynamiducts:energy_duct_resonant_empty"
+    }
+  },
+  "ingredient": {
+    "tag": "c:molten/redstone",
+    "amount": 648
+  },
+  "result": {
+    "item": "dynamiducts:energy_duct_resonant"
+  }
+}

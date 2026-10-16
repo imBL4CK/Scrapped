@@ -1,0 +1,8 @@
+{
+    "type": "lychee:block_interacting",
+    "item_in": "omni_util:withered_tear",
+    "block_in": "minecraft:dirt",
+    "post": [
+        "place omni_util:curse_coarse"
+    ]
+}

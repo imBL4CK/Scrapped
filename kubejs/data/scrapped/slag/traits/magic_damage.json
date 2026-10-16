@@ -1,0 +1,13 @@
+{
+  "id": "scrapped:magic_damage",
+  "hidden": true,
+  "sort_order": 30,
+  "effects": [
+    {
+      "type": "slag:attribute",
+      "attribute": "lodestone:magic_damage",
+      "id": "scrapped:magic_damage",
+      "slot": "mainhand"
+    }
+  ]
+}

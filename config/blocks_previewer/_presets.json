@@ -1,0 +1,11 @@
+{
+  "activePresetId": "fafb1987-fbb1-495d-bb34-e5ad4d4bda30",
+  "presets": [
+    {
+      "id": "fafb1987-fbb1-495d-bb34-e5ad4d4bda30",
+      "name": "Default",
+      "scope": "DEFAULT",
+      "worldIds": []
+    }
+  ]
+}

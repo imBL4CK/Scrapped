@@ -1,0 +1,173 @@
+{
+  "name": {
+    "text": {
+      "translate": "block.scrapped.redstone_energy_cell"
+    }
+  },
+  "appearance": {
+    "custommachinery:block": "scrapped:machines/redstone_energy_cell#standalone",
+    "custommachinery:keep_inventory": true,
+    "custommachinery:shape": [
+        [0, 0, 0, 0.25, 1, 0.25 ],
+        [0.75, 0, 0, 1, 1, 0.25 ],
+        [0.75, 0, 0.75, 1, 1, 1 ],
+        [0, 0, 0.75, 0.25, 1, 1 ],
+        [0.25, 0, 0, 0.75, 0.25, 0.25 ],
+        [0.25, 0.75, 0, 0.75, 1, 0.25 ],
+        [0.25, 0, 0.75, 0.75, 0.25, 1 ],
+        [0.25, 0.75, 0.75, 0.75, 1, 1 ],
+        [0, 0, 0.25, 0.25, 0.25, 0.75 ],
+        [0, 0.75, 0.25, 0.25, 1, 0.75 ],
+        [0.75, 0, 0.25, 1, 0.25, 0.75 ],
+        [0.75, 0.75, 0.25, 1, 1, 0.75 ]
+    ]
+  },
+  "components": [
+    {
+      "type": "custommachinery:energy",
+      "max_output": 4000,
+      "capacity": 512000,
+      "max_input": 4000
+    },
+    {
+      "type": "custommachinery:item_energy",
+      "id": "energy_input_slot",
+      "mode": "input",
+      "capacity": 64
+    },
+    {
+      "type": "custommachinery:item_energy",
+      "config": {
+        "TOP": "INPUT",
+        "BOTTOM": "INPUT",
+        "FRONT": "INPUT",
+        "RIGHT": "INPUT",
+        "BACK": "INPUT",
+        "LEFT": "INPUT"
+      },
+      "id": "energy_output_slot",
+      "mode": "output",
+      "capacity": 64
+    },
+    {
+      "type": "custommachinery:item_upgrade",
+      "id": "upgrade_slot",
+      "mode": "input",
+      "capacity": 64
+    }
+  ],
+  "gui": [
+    {
+      "type": "custommachinery:background",
+      "texture": {
+        "texture": "scrapped:textures/gui/container/small_template.png"
+      },
+      "width": 176,
+      "height": 166
+    },
+    {
+      "type": "custommachinery:config",
+      "texture_hovered": {
+        "texture": "scrapped:textures/gui/widgets/config_slot_hovered.png"
+      },
+      "texture": {
+        "texture": "scrapped:textures/gui/widgets/config_slot.png"
+      },
+      "x": 175,
+      "y": 4
+    },
+    {
+      "type": "custommachinery:dump",
+      "texture_hovered": {
+        "texture": "scrapped:textures/gui/widgets/trash_button_hovered.png"
+      },
+      "texture": {
+        "texture": "scrapped:textures/gui/widgets/trash_button.png"
+      },
+      "tooltips": "info.scrapped.dump_energy.0",
+      "component": "custommachinery:energy",
+      "x": 7,
+      "y": 69
+    },
+    {
+      "type": "custommachinery:energy",
+      "texture_filled": {
+        "texture": "scrapped:textures/gui/widgets/energy_icon_filled.png"
+      },
+      "x": 80,
+      "y": 32,
+      "width": 16,
+      "texture_empty": {
+        "texture": "scrapped:textures/gui/widgets/energy_icon_empty.png"
+      }
+    },
+    {
+      "type": "custommachinery:player_inventory",
+      "x": 7,
+      "y": 83
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "energy_input_slot",
+      "texture": {
+        "texture": "scrapped:textures/gui/widgets/energy_slot_output.png"
+      },
+      "x": 43,
+      "y": 52
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "energy_output_slot",
+      "texture": {
+        "texture": "scrapped:textures/gui/widgets/energy_slot_output.png"
+      },
+      "x": 115,
+      "y": 52
+    },
+    {
+      "type": "custommachinery:slot",
+      "texture_hovered": {
+        "texture": "scrapped:textures/gui/widgets/upgrade_slot_hovered.png"
+      },
+      "id": "upgrade_slot",
+      "texture": {
+        "texture": "scrapped:textures/gui/widgets/upgrade_slot.png"
+      },
+      "x": 175,
+      "y": 22
+    },
+    {
+      "type": "custommachinery:text",
+      "x": 33,
+      "y": 6,
+      "height": 9,
+      "text": {
+        "text": {
+          "translate": "block.scrapped.redstone_energy_cell"
+        }
+      }
+    },
+    {
+      "type": "custommachinery:texture",
+      "texture_hovered": {
+        "texture": "scrapped:textures/gui/elements/curved_arrow_insert_right.png"
+      },
+      "texture": {
+        "texture": "scrapped:textures/gui/elements/curved_arrow_insert_right.png"
+      },
+      "x": 47,
+      "y": 33
+    },
+    {
+      "type": "custommachinery:texture",
+      "texture_hovered": {
+        "texture": "scrapped:textures/gui/elements/curved_arrow_extract_right.png"
+      },
+      "texture": {
+        "texture": "scrapped:textures/gui/elements/curved_arrow_extract_right.png"
+      },
+      "x": 97,
+      "y": 33
+    }
+  ]
+}

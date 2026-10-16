@@ -1,0 +1,29 @@
+{
+  "type": "immersiveengineering:arc_furnace",
+  "additives": [
+    {
+      "tag": "c:ingots/iron"
+    },
+    {
+      "tag": "minecraft:coals"
+    },
+    {
+      "tag": "minecraft:coals"
+    }
+  ],
+  "energy": 51200,
+  "input": [
+    {
+      "tag": "c:obsidians"
+    }
+  ],
+  "results": [
+    {
+      "basePredicate": {
+        "tag": "c:ingots/dark_steel"
+      },
+      "count": 2
+    }
+  ],
+  "time": 100
+}

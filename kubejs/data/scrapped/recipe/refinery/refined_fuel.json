@@ -1,0 +1,19 @@
+{
+    "type": "immersiveengineering:refinery",
+    "catalyst": {
+      "tag": "c:plates/silver"
+    },
+    "energy": 4000,
+    "input0": {
+      "amount": 10,
+      "tag": "c:heavy_fuel"
+    },
+    "input1": {
+      "amount": 10,
+      "tag": "c:light_fuel"
+    },
+    "result": {
+      "amount": 20,
+      "id": "scrapped:refined_fuel"
+    }
+  }

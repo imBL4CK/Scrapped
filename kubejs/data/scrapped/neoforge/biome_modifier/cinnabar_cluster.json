@@ -1,0 +1,13 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": "#minecraft:is_overworld",
+  "features": [
+    "scrapped:cinnabar_clusters/side_up",
+    "scrapped:cinnabar_clusters/side_down",
+    "scrapped:cinnabar_clusters/side_north",
+    "scrapped:cinnabar_clusters/side_south",
+    "scrapped:cinnabar_clusters/side_east",
+    "scrapped:cinnabar_clusters/side_west"
+  ],
+  "step": "underground_decoration"
+}

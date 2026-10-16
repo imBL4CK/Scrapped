@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "  B",
+    " N ",
+    "G  "
+  ],
+  "key": {
+    "B": {
+      "tag": "c:ingots/bronze"
+    },
+    "N": {
+      "tag": "c:nuggets/copper"
+    },
+    "G": {
+      "tag": "c:glass_panes"
+    }
+  },
+  "result": {
+    "count": 1,
+    "id": "precision_fluid_pipette:fluid_pipette"
+  }
+}

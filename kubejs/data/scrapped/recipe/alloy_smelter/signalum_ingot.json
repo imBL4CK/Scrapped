@@ -1,0 +1,23 @@
+{
+  "type": "enderio:alloy_smelting",
+  "energy": 5600,
+  "experience": 0.3,
+  "inputs": [
+    {
+      "tag": "c:ingots/tin",
+      "count": 1
+    },
+    {
+      "tag": "c:ingots/copper",
+      "count": 4
+    },
+    {
+      "item": "minecraft:redstone",
+      "count": 4
+    }
+  ],
+  "output": {
+    "id": "dynamiducts:signalum_ingot",
+    "count": 4
+  }
+}

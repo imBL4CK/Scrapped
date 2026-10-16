@@ -1,0 +1,4 @@
+#Added Tree Height
+# Default: 2
+# Range: > 0
+treeHeight = 4

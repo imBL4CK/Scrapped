@@ -1,0 +1,10 @@
+{
+  "type": "malum:void_favor",
+  "input": {
+    "item": "omni_util:garnet"
+  },
+  "result": {
+    "count": 1,
+    "id": "omni_util:onyx"
+  }
+}

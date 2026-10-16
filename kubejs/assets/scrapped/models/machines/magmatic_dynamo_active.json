@@ -1,0 +1,6 @@
+{
+  "parent": "scrapped:machines/magmatic_dynamo",
+  "textures": {
+    "coil": "scrapped:block/dynamo/dynamo_coil_active"
+  }
+}

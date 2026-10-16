@@ -1,0 +1,29 @@
+[
+  {
+    "action": "remove_recipe",
+    "id": [
+      "farmersdelight:/crafting/wheat_dough_from_water",
+      "dynamiducts:bronze_ingot_from_copper",
+      "precision_fluid_pipette:fluid_pipette",
+      "dynamiducts:signalum_ingot_craft",
+      "dynamiducts:lumium_ingot_craft",
+      "dynamiducts:enderium_ingot_craft",
+      "dynamiducts:invar_ingot_from_iron",
+      "dynamiducts:energy_duct_superconductor_from_empty",
+      "dynamiducts:fluid_duct_basic",
+      "dynamiducts:fluid_duct_basic_opaque",
+      "dynamiducts:fluid_duct_hardened",
+      "dynamiducts:fluid_duct_hardened_opaque",
+      "dynamiducts:fluid_duct_super",
+      "dynamiducts:item_duct_fast",
+      "dynamiducts:item_duct_energy_fast",
+      "dynamiducts:item_duct_basic",
+      "dynamiducts:item_duct_basic_opaque",
+      "dynamiducts:energy_duct_reinforced_from_empty",
+      "dynamiducts:energy_duct_signalum_from_empty",
+      "dynamiducts:energy_duct_resonant_from_empty",
+      "dynamiducts:energy_duct_reinforced_empty",
+      "dynamiducts:energy_duct_superconductor_empty"
+    ]
+  }
+]

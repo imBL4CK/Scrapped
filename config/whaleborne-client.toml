@@ -1,0 +1,27 @@
+#Shows hullback building and damage progress. Turning this off solve incompatibility issues with shaders but will sacrifice some visual flair
+hullbackArmorProgress = true
+#Determines how far hullback sounds travel.
+# Default: 3.0
+# Range: 0.0 ~ 5.0
+hullbackSoundDistance = 3.0
+#Built-in procedural Hullback wake rendering (foam, bow splash); independent from the Wakes mod's own integration.
+hullbackWakeRendering = false
+#Performance: only recolor wake bricks that are on screen.
+#Wakes recolors every wake every tick regardless of the camera. Gating that to the view
+#frustum removes wasted work with no gameplay effect. Off-screen wakes are repopulated
+#before they scroll into view. Disable if a shader pack shows missing distant foam.
+wakesRecolorFrustumCulling = true
+#Performance: refresh distant on-screen wake bricks every few ticks instead of every
+#tick (near bricks stay every tick). New and growing wakes are never delayed, only far,
+#already-drawn foam animates a little less often. No change to wake size or coverage.
+wakesRecolorTemporalLod = true
+#Performance: skip feeding wakes to the Wakes mod for whales farther than this many blocks
+#from the camera. 0 = unlimited (original behavior).
+# Default: 0.0
+# Range: 0.0 ~ 512.0
+hullbackWakeMaxDistance = 0.0
+#Performance/visual: scale the width of the whale's wake trails fed to the Wakes mod.
+#Lower is cheaper but thinner. 1.0 = original width.
+# Default: 1.0
+# Range: 0.1 ~ 1.0
+hullbackWakeWidthScale = 1.0

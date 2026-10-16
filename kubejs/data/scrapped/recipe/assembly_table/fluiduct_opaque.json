@@ -1,0 +1,22 @@
+{
+    "type": "assemblytable:assembly_table",
+    "energy": 4000,
+    "ingredients": [
+      {
+        "ingredient": {
+          "tag": "c:plates/copper"
+        },
+        "count": 2
+      },
+      {
+        "ingredient": {
+          "tag": "c:ingots/lead"
+        },
+        "count": 1
+      }
+    ],
+    "result": {
+        "id": "dynamiducts:fluid_duct_basic_opaque",
+        "count": 6
+    }
+}

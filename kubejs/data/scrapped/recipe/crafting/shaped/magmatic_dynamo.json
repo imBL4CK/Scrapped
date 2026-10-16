@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " C ",
+    "IFI",
+    "IEI"
+  ],
+  "key": {
+    "C": {
+      "item": "scrapped:redstone_coil"
+    },
+    "I": {
+      "tag": "c:ingots/invar"
+    },
+    "F": {
+      "item": "scrapped:dynamo_frame"
+    },
+    "E": {
+      "item": "immersiveengineering:component_electronic"
+    }
+  },
+  "result": {
+    "id": "scrapped:magmatic_dynamo",
+    "count": 1
+  }
+}

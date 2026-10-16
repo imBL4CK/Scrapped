@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " B ",
+    "SIS",
+    "SBS"
+  ],
+  "key": {
+    "B": {
+      "tag": "c:ingots/bronze"
+    },
+    "S": {
+      "tag": "c:ingots/steel"
+    },
+    "I": {
+      "item": "immersiveengineering:component_iron"
+    }
+  },
+  "result": {
+    "id": "scrapped:dynamo_frame",
+    "count": 1
+  }
+}

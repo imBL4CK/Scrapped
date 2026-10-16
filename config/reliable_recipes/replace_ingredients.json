@@ -1,0 +1,14 @@
+[
+  {
+    "action": "replace_input",
+    "target": "#c:crops/wheat",
+    "replacement": "bountifulfares:flour",
+    "id": "farmersdelight:wheat_dough_from_egg"
+  },
+  {
+    "action": "replace_input",
+    "target": "#c:ingots/iron",
+    "replacement": "enderio:dark_steel_ingot",
+    "id": "enderio:void_chassis"
+  }
+]

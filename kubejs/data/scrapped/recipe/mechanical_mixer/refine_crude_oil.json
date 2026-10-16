@@ -1,0 +1,26 @@
+{
+  "type": "create:mixing",
+  "heat_requirement": "superheated",
+  "ingredients": [
+    {
+      "fluid": "scrapped:crude_oil",
+      "type": "fluid_stack",
+      "amount": 1000
+    }
+  ],
+  "results": [
+    {
+        "id": "blocksabound:tar",
+        "chance": 0.75,
+        "count": 8
+    },
+    {
+        "id": "scrapped:heavy_fuel",
+        "amount": 500
+    },
+    {
+        "id": "scrapped:light_fuel",
+        "amount": 500
+    }
+  ]
+}

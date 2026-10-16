@@ -1,0 +1,8 @@
+{
+  "id": "scrapped:slag_dynamic_part",
+  "name": "Slag Dynamic Parts",
+  "type": "remi:group",
+  "contents": [
+    "slag:dynamic_part"
+  ]
+}

@@ -1,0 +1,28 @@
+{
+    "type": "assemblytable:assembly_table",
+    "energy": 32000,
+    "ingredients": [
+      {
+        "ingredient": {
+          "tag": "c:ingots/electrum"
+        },
+        "count": 4
+      },
+      {
+        "ingredient": {
+          "item": "minecraft:tinted_glass"
+        },
+        "count": 4
+      },
+      {
+        "ingredient": {
+          "item": "dynamiducts:energy_duct_resonant_empty"
+        },
+        "count": 1
+      }
+    ],
+    "result": {
+        "id": "dynamiducts:energy_duct_superconductor_empty",
+        "count": 6
+    }
+}

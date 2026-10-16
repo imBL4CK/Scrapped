@@ -1,0 +1,16 @@
+{
+    "item": "scrapped:redstone_coil",
+    "max": 1,
+    "machines": [
+        "scrapped:steam_dynamo",
+        "scrapped:magmatic_dynamo"
+    ],
+    "requirements": [
+        {
+            "requirement": "custommachinery:energy_per_tick",
+            "mode": "output",
+            "operation": "multiplication",
+            "modifier": 2
+        }
+    ]
+}

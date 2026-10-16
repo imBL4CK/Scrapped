@@ -1,0 +1,147 @@
+{
+  "name": {
+    "text": {
+      "translate": "block.scrapped.bronze_drum"
+    }
+  },
+  "appearance": {
+    "custommachinery:block": "scrapped:machines/bronze_drum#standalone",
+    "custommachinery:interaction_sound": {
+      "fall": "minecraft:block.copper.fall",
+      "open": "minecraft:block.iron_trapdoor.close",
+      "close": "minecraft:block.iron_trapdoor.close",
+      "place": "minecraft:block.copper.place",
+      "hit": "minecraft:block.copper.hit",
+      "break": "minecraft:block.copper.break",
+      "step": "minecraft:block.copper.step"
+    },
+    "custommachinery:keep_inventory": true,
+    "custommachinery:shape": {
+      "north": [
+        0.125,
+        0.0,
+        0.125,
+        0.875,
+        1.0,
+        0.875
+      ],
+      "south": [
+        0.125,
+        0.0,
+        0.125,
+        0.875,
+        1.0,
+        0.875
+      ],
+      "west": [
+        0.125,
+        0.0,
+        0.125,
+        0.875,
+        1.0,
+        0.875
+      ],
+      "east": [
+        0.125,
+        0.0,
+        0.125,
+        0.875,
+        1.0,
+        0.875
+      ]
+    }
+  },
+  "components": {
+    "type": "custommachinery:fluid",
+    "config": {
+      "TOP": "BOTH",
+      "BOTTOM": "BOTH",
+      "FRONT": "BOTH",
+      "RIGHT": "BOTH",
+      "BACK": "BOTH",
+      "LEFT": "BOTH"
+    },
+    "max_input": 1000,
+    "max_output": 1000,
+    "id": "fluid_tank",
+    "capacity": 16000
+  },
+  "gui": [
+    {
+      "type": "custommachinery:background",
+      "texture": {
+        "texture": "scrapped:textures/gui/container/small_template.png"
+      },
+      "width": 176,
+      "height": 166
+    },
+    {
+      "type": "custommachinery:config",
+      "texture_hovered": {
+        "texture": "scrapped:textures/gui/widgets/config_slot_hovered.png"
+      },
+      "texture": {
+        "texture": "scrapped:textures/gui/widgets/config_slot.png"
+      },
+      "x": 175,
+      "y": 4
+    },
+    {
+      "type": "custommachinery:dump",
+      "texture_hovered": {
+        "texture": "scrapped:textures/gui/widgets/trash_button_hovered.png"
+      },
+      "tooltips": {
+        "text": {
+          "translate": "info.scrapped.dump_fluid.0"
+        }
+      },
+      "texture": {
+        "texture": "scrapped:textures/gui/widgets/trash_button.png"
+      },
+      "x": 7,
+      "y": 69,
+      "tanks": "fluid_tank"
+    },
+    {
+      "type": "custommachinery:fluid",
+      "id": "fluid_tank",
+      "texture": {
+        "texture": "scrapped:textures/gui/widgets/tank.png"
+      },
+      "x": 79,
+      "y": 23,
+      "width": 18,
+      "height": 49
+    },
+    {
+      "type": "custommachinery:player_inventory",
+      "x": 7,
+      "y": 83
+    },
+    {
+      "type": "custommachinery:text",
+      "x": 57,
+      "y": 6,
+      "text": {
+        "text": {
+          "translate": "block.scrapped.bronze_drum"
+        }
+      }
+    },
+    {
+      "type": "custommachinery:texture",
+      "texture_hovered": {
+        "texture": "scrapped:textures/gui/widgets/tank_overlay.png"
+      },
+      "texture": {
+        "texture": "scrapped:textures/gui/widgets/tank_overlay.png"
+      },
+      "x": 78,
+      "y": 22,
+      "height": 51,
+      "jei": true,
+      "z_level": 101
+    }
+  ]
+}

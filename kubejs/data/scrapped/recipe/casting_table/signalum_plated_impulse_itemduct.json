@@ -1,0 +1,15 @@
+{
+  "type": "slag:table_casting",
+  "cast_item": {
+    "ingredient": {
+      "item": "dynamiducts:item_duct_energy_opaque"
+    }
+  },
+  "ingredient": {
+    "tag": "c:molten/glowstone",
+    "amount": 288
+  },
+  "result": {
+    "item": "dynamiducts:item_duct_energy_fast"
+  }
+}

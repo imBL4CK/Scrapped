@@ -1,0 +1,51 @@
+{
+  "id": "scrapped:soul_stained_steel",
+  "molten_fluid": "scrapped:molten_soul_stained_steel",
+  "repair_ingredient": {
+    "item": "malum:soul_stained_steel_ingot"
+  },
+  "sort_order": 70,
+  "texture": "shiny",
+  "traits": [
+    {
+      "trait": "scrapped:magic_resistance",
+      "value": 2.0
+    },
+    {
+      "trait": "scrapped:magic_damage",
+      "value": 3.0
+    },
+    {
+      "trait": "slag:attack_damage",
+      "value": 2.5
+    },
+    {
+      "trait": "slag:durability",
+      "value": 512.0
+    },
+    {
+      "trait": "slag:mining_tier",
+      "value": 4.0
+    },
+    {
+      "trait": "slag:mining_speed",
+      "value": 7.0
+    },
+    {
+      "trait": "slag:enchantability",
+      "value": 15.0
+    },
+    {
+      "trait": "slag:armor",
+      "value": 4.0
+    },
+    {
+      "trait": "slag:armor_toughness",
+      "value": 3.0
+    },
+    {
+      "trait": "slag:knockback_resistance",
+      "value": 0.1
+    }
+  ]
+}

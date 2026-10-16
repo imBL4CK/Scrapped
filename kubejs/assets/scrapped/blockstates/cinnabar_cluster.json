@@ -1,0 +1,30 @@
+{
+  "variants": {
+    "facing=down": {
+      "model": "scrapped:block/cinnabar_cluster",
+      "x": 180
+    },
+    "facing=up": {
+      "model": "scrapped:block/cinnabar_cluster"
+    },
+    "facing=north": {
+      "model": "scrapped:block/cinnabar_cluster",
+      "x": 90
+    },
+    "facing=south": {
+      "model": "scrapped:block/cinnabar_cluster",
+      "x": 90,
+      "y": 180
+    },
+    "facing=east": {
+      "model": "scrapped:block/cinnabar_cluster",
+      "x": 90,
+      "y": 90
+    },
+    "facing=west": {
+      "model": "scrapped:block/cinnabar_cluster",
+      "x": 90,
+      "y": 270
+    }
+  }
+}

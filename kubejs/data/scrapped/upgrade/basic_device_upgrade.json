@@ -1,0 +1,29 @@
+{
+    "item": "scrapped:basic_device_upgrade",
+    "max": 1,
+    "machines": [
+        "scrapped:steam_dynamo",
+        "scrapped:magmatic_dynamo",
+        "scrapped:redstone_energy_cell"
+    ],
+    "components": [
+        {
+            "component": "custommachinery:energy",
+            "operation": "multiplication",
+            "target": "capacity",
+            "modifier": 2
+        },
+        {
+            "component": "custommachinery:energy",
+            "operation": "multiplication",
+            "target": "max_input",
+            "modifier": 2
+        },
+        {
+            "component": "custommachinery:energy",
+            "operation": "multiplication",
+            "target": "max_output",
+            "modifier": 2
+        }
+    ]
+}

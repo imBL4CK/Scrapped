@@ -1,0 +1,39 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:not",
+      "value": {
+        "type": "neoforge:tag_empty",
+        "tag": "c:ingots/copper"
+      }
+    },
+    {
+      "type": "neoforge:not",
+      "value": {
+        "type": "neoforge:tag_empty",
+        "tag": "c:ingots/tin"
+      }
+    }
+  ],
+  "type": "slag:alloying",
+  "ingredients": [
+    {
+      "amount": 2,
+      "tag": "c:molten/tin"
+    },
+    {
+      "amount": 8,
+      "tag": "c:molten/copper"
+    },
+    {
+      "amount": 8,
+      "tag": "c:molten/redstone"
+    }
+  ],
+  "result": {
+    "amount": 18,
+    "id": "scrapped:molten_signalum"
+  },
+  "strict_temperature": true,
+  "temperature": "BLAZING"
+}

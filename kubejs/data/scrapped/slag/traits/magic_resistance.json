@@ -1,0 +1,13 @@
+{
+  "id": "scrapped:magic_resistance",
+  "hidden": true,
+  "sort_order": 30,
+  "effects": [
+    {
+      "type": "slag:attribute",
+      "attribute": "lodestone:magic_resistance",
+      "id": "scrapped:magic_resistance",
+      "round": true
+    }
+  ]
+}

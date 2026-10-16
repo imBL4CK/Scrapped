@@ -1,0 +1,11 @@
+ [
+   {
+     "inputs": "biggerreactors:uranium_ore",
+     "output": "immersiveengineering:ore_uranium"
+   },
+   {
+     "inputs": "biggerreactors:deepslate_uranium_ore",
+     "output": "immersiveengineering:deepslate_ore_uranium"
+   }
+ ]
+ 

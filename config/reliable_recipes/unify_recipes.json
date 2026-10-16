@@ -1,0 +1,22 @@
+[
+  {
+    "action": "replace_input",
+    "target": ["create:wheat_flour", "#c:flours/wheat", "pneumaticcraft:wheat_flour"],
+    "replacement": "bountifulfares:flour"
+  },
+  {
+    "action": "replace_output",
+    "target": ["create:wheat_flour", "#c:flours/wheat", "pneumaticcraft:wheat_flour"],
+    "replacement": "bountifulfares:flour"
+  },
+  {
+    "action": "replace_input",
+    "target": ["create:dough", "#c:foods/dough"],
+    "replacement": "farmersdelight:wheat_dough"
+  },
+  {
+    "action": "replace_output",
+    "target": ["create:dough", "#c:foods/dough"],
+    "replacement": "farmersdelight:wheat_dough"
+  }
+]

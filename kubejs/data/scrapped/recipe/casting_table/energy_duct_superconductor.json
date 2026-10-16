@@ -1,0 +1,15 @@
+{
+  "type": "slag:table_casting",
+  "cast_item": {
+    "ingredient": {
+      "item": "dynamiducts:energy_duct_superconductor_empty"
+    }
+  },
+  "ingredient": {
+    "id": "the_beyond:gellid_void",
+    "amount": 1000
+  },
+  "result": {
+    "item": "dynamiducts:energy_duct_superconductor"
+  }
+}

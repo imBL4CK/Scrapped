@@ -1,0 +1,17 @@
+{
+  "musicDelayLength2": "SONGPACK_DEFAULT",
+  "musicSwitchSpeed2": "SONGPACK_DEFAULT",
+  "debugModeEnabled": false,
+  "loadedUserSongpack": "Original Minecraft Music Songpack",
+  "blacklistedDimensions": [],
+  "savedHomePositions": {
+    "saved": {
+      "x": -592.5,
+      "y": 119.5625,
+      "z": 299.5
+    }
+  },
+  "soundsMuteMusic": [],
+  "soundsMuteMusicIgnoreDistance": [],
+  "hasForcedInitialVolume": true
+}

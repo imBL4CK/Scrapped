@@ -1,0 +1,7 @@
+{
+  "type": "remi:tag",
+  "id": "quark:minecraft_block_vertical_slab",
+  "tag": "quark:vertical_slab",
+  "registry": "minecraft:block",
+  "enabled": true
+}

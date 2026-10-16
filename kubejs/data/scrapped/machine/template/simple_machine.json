@@ -1,0 +1,44 @@
+{
+  "name": {
+    "text": {
+      "translate": "simple_machine"
+    }
+  },
+  "appearance": {},
+  "gui": [
+    {
+      "type": "custommachinery:background",
+      "texture": {
+        "texture": "scrapped:textures/gui/container/small_template.png"
+      },
+      "width": 176,
+      "height": 166
+    },
+    {
+      "type": "custommachinery:player_inventory",
+      "x": 7,
+      "y": 83
+    },
+    {
+      "type": "custommachinery:text",
+      "x": 8,
+      "y": 6,
+      "text": {
+        "text": {
+          "translate": "block.scrapped.simple_machine"
+        }
+      }
+    },
+    {
+      "type": "custommachinery:config",
+      "texture_hovered": {
+        "texture": "scrapped:textures/gui/widgets/config_slot_hovered.png"
+      },
+      "texture": {
+        "texture": "scrapped:textures/gui/widgets/config_slot.png"
+      },
+      "x": 175,
+      "y": 4
+    }
+  ]
+}

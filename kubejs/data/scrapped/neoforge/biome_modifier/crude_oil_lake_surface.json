@@ -1,0 +1,6 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": "#scrapped:has_crude_oil_lakes",
+  "features": "scrapped:crude_oil_lake_surface",
+  "step": "lakes"
+}

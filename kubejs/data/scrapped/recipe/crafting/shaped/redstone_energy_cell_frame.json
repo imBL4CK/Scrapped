@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "BLB",
+    "L L",
+    "BLB"
+  ],
+  "key": {
+    "B": {
+      "tag": "c:ingots/bronze"
+    },
+    "L": {
+      "tag": "c:ingots/lead"
+    }
+  },
+  "result": {
+    "id": "scrapped:redstone_energy_cell_frame",
+    "count": 1
+  }
+}

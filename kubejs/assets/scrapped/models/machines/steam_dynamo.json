@@ -1,0 +1,9 @@
+{
+  "parent": "scrapped:block/dynamo_frame",
+  "textures": {
+    "frame_side": "scrapped:block/dynamo/steam_dynamo_side",
+    "frame_top": "scrapped:block/dynamo/steam_dynamo_top",
+    "coil": "scrapped:block/dynamo/dynamo_coil_inactive",
+    "particle": "scrapped:block/dynamo/steam_dynamo"
+  }
+}
