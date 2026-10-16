@@ -1,3 +1,5 @@
+<img src="icon.png" alt="Descrição" width="50" align="left" style="margin-right: 10px;">
+
 # Scrapped: Classics with modern taste
 Scrapped is a modpack project that seeks to remix classic ideas in Minecraft 1.21.1 
 
@@ -19,6 +21,7 @@ The project is under the license [Dont be a jerk](https://github.com/evantahler/
 * [Legacy Console Edition Click Sound](https://modrinth.com/resourcepack/legacy-edition-click-sound)
 * [Water Bobbu](https://modrinth.com/resourcepack/waterbobbu)
 * [Jappa Style Hotbar](https://www.planetminecraft.com/texture-pack/jappa-style-hotbar/)
+* ["Device Upgrade" is a remix of "upgrade" item from cobblemon](https://cobblemon.com/en)
 
 ## About
 [imBL4CK - 2026](https://github.com/imBL4CK)
