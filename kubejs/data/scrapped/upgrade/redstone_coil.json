@@ -3,7 +3,9 @@
     "max": 1,
     "machines": [
         "scrapped:steam_dynamo",
-        "scrapped:magmatic_dynamo"
+        "scrapped:magmatic_dynamo",
+        "scrapped:redstone_energy_cell",
+        "scrapped:redstone_furnace"
     ],
     "requirements": [
         {

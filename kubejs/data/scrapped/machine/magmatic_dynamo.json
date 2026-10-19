@@ -7,7 +7,7 @@
   "appearance": {
     "running": {
       "custommachinery:ambient_sound": {
-        "sound": "scrapped:machine_generic_heavy.running"
+        "sound": "scrapped:block.machine_generic_heavy.running"
       },
       "custommachinery:block": "scrapped:machines/magmatic_dynamo_active#standalone"
     },
@@ -98,7 +98,8 @@
         "FRONT": "OUTPUT",
         "RIGHT": "OUTPUT",
         "BACK": "OUTPUT",
-        "LEFT": "OUTPUT"
+        "LEFT": "OUTPUT",
+        "output": true
       },
       "capacity": 64000,
       "max_input": 4000
@@ -120,13 +121,15 @@
     },
     {
       "type": "custommachinery:item_upgrade",
-      "id": "upgrade_slot_1",
+      "whitelist": "#scrapped:device_upgrades",
+      "id": "device_slot",
       "mode": "input",
       "capacity": 1
     },
     {
       "type": "custommachinery:item_upgrade",
-      "id": "upgrade_slot_2",
+      "blacklist": "#scrapped:device_upgrades",
+      "id": "upgrade_slot",
       "mode": "input",
       "capacity": 1
     }
@@ -156,10 +159,14 @@
       "texture_hovered": {
         "texture": "scrapped:textures/gui/widgets/trash_button_hovered.png"
       },
+      "tooltips": {
+        "text": {
+          "translate": "info.scrapped.dump_fluid.0"
+        }
+      },
       "texture": {
         "texture": "scrapped:textures/gui/widgets/trash_button.png"
       },
-      "tooltips": "info.scrapped.dump_fluid.0",
       "x": 11,
       "y": 22,
       "height": 10,
@@ -207,11 +214,11 @@
     {
       "type": "custommachinery:slot",
       "texture_hovered": {
-        "texture": "scrapped:textures/gui/widgets/upgrade_slot_hovered.png"
+        "texture": "scrapped:textures/gui/widgets/device_slot_hovered.png"
       },
-      "id": "upgrade_slot_1",
+      "id": "device_slot",
       "texture": {
-        "texture": "scrapped:textures/gui/widgets/upgrade_slot.png"
+        "texture": "scrapped:textures/gui/widgets/device_slot.png"
       },
       "x": 175,
       "y": 22
@@ -221,7 +228,7 @@
       "texture_hovered": {
         "texture": "scrapped:textures/gui/widgets/upgrade_slot_hovered.png"
       },
-      "id": "upgrade_slot_2",
+      "id": "upgrade_slot",
       "texture": {
         "texture": "scrapped:textures/gui/widgets/upgrade_slot.png"
       },

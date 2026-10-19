@@ -6,11 +6,11 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "scrapped:cinnabar_shard"
+          "name": "scrapped:cinnabar_cluster"
         }
       ],
       "rolls": 1.0
     }
   ],
-  "random_sequence": "minecraft:blocks/amethyst_cluster"
+  "random_sequence": "scrapped:blocks/cinnabar_cluster"
 }

@@ -1,6 +1,6 @@
-#Internal config version used by the mod for future migrations. Current version: 2
+#Internal config version used by the mod for future migrations. Current version: 3
 #Range: > 1
-config_version = 2
+config_version = 3
 spawn_wind = true
 wind_must_see_sky = true
 
@@ -23,6 +23,14 @@ minimum_wind_height = 83
 minimum_height_spawn_rate_multiplier = 1.0
 maximum_wind_height = 180
 maximum_height_spawn_rate_multiplier = 4.0
+
+[living_wind]
+#Optional Living Wind integration. If enabled and Living Wind is present, Windy uses its synchronized wind direction and strength.
+#When active, Windy's own Y-level and biome density rules are bypassed because Living Wind supplies environmental strength.
+enabled = true
+minimum_strength = 0.08
+density_multiplier = 1.0
+strong_particle_threshold = 0.75
 
 [biome_wind]
 #Optional biome-based wind rules. These multiply the active CONSTANT or Y_LEVEL_SCALING density.

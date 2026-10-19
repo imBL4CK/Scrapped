@@ -1,12 +1,4 @@
 {
-  "machine_generic.running": {
-    "sounds": ["scrapped:machines/machine_generic_running"],
-    "subtitle": "subtitles.scrapped.machine_generic.running"
-  },
-  "machine_generic_heavy.running": {
-    "sounds": ["scrapped:machines/machine_generic_heavy_running"],
-    "subtitle": "subtitles.scrapped.machine_generic_heavy.running"
-  },
   "machine_centrifuge.running": {
     "sounds": ["scrapped:machines/machine_centrifuge_running"],
     "subtitle": "subtitles.scrapped.machine_centrifuge.running"
@@ -14,10 +6,6 @@
   "machine_crushing.running": {
     "sounds": ["scrapped:machines/machine_crushing_running"],
     "subtitle": "subtitles.scrapped.machine_crushing.running"
-  },
-  "machine_furnace.running": {
-    "sounds": ["scrapped:machines/machine_furnace_running"],
-    "subtitle": "subtitles.scrapped.machine_furnace.running"
   },
   "machine_press.running": {
     "sounds": ["scrapped:machines/machine_press_running"],
@@ -30,5 +18,17 @@
   "machine_fluid_transposer.running": {
     "sounds": ["scrapped:machines/machine_fluid_transposer_running"],
     "subtitle": "subtitles.scrapped.machine_fluid_transposer.running"
+  },
+  "block.machine_furnace.running": {
+    "sounds": ["scrapped:machines/machine_furnace_running"],
+    "subtitle": "subtitles.scrapped.machine_furnace.running"
+  },
+  "block.machine_generic.running": {
+    "sounds": ["scrapped:machines/machine_generic_running"],
+    "subtitle": "subtitles.scrapped.machine_generic.running"
+  },
+  "block.machine_generic_heavy.running": {
+    "sounds": ["scrapped:machines/machine_generic_heavy_running"],
+    "subtitle": "subtitles.scrapped.machine_generic_heavy.running"
   }
 }

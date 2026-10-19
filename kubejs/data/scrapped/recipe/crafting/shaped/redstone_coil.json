@@ -1,21 +1,19 @@
 {
   "type": "minecraft:crafting_shaped",
-  "category": "misc",
   "pattern": [
-    "  G",
-    " R ",
-    "G  "
+    "  R",
+    " G ",
+    "R  "
   ],
   "key": {
-    "G": {
-      "tag": "c:plates/gold"
-    },
     "R": {
       "item": "minecraft:redstone"
+    },
+    "G": {
+      "tag": "c:ingots/gold"
     }
   },
   "result": {
-    "id": "scrapped:redstone_coil",
-    "count": 2
+    "id": "scrapped:redstone_coil"
   }
 }

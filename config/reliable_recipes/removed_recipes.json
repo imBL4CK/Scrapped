@@ -23,7 +23,8 @@
       "dynamiducts:energy_duct_signalum_from_empty",
       "dynamiducts:energy_duct_resonant_from_empty",
       "dynamiducts:energy_duct_reinforced_empty",
-      "dynamiducts:energy_duct_superconductor_empty"
+      "dynamiducts:energy_duct_superconductor_empty",
+      "custommachinery:configuration_card"
     ]
   }
 ]

@@ -30,8 +30,6 @@
 		#What a hollow cassette's tooltip reveals about its linked target once linked. HIDDEN: nothing is shown. COORDINATES: the exact block coordinates are shown. CIPHERED (default): a 5-letter word rendered in the enchanting table's font is shown instead, unique to that link but unreadable, so you can tell cassettes apart without leaking the actual location
 		#Allowed Values: HIDDEN, COORDINATES, CIPHERED
 		linked_feed_display_mode = "CIPHERED"
-		#Attempts to disable iris shaders in the live feed view
-		iris_off_hack = true
 
 	[television.screen_effects]
 		enabled = true

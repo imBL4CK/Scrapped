@@ -5,6 +5,7 @@ ItemEvents.modifyTooltips((e) => {
       "scrapped:steam_dynamo",
       "scrapped:magmatic_dynamo",
       "scrapped:bronze_drum",
+      "scrapped:redstone_furnace",
     ],
     { shift: false },
     (info) => {
@@ -22,5 +23,8 @@ ItemEvents.modifyTooltips((e) => {
   });
   e.modify("scrapped:bronze_drum", { shift: true }, (info) => {
     info.insert(1, Text.translate("info.scrapped.bronze_drum.0"));
+  });
+  e.modify("scrapped:redstone_furnace", { shift: true }, (info) => {
+    info.insert(1, Text.translate("info.scrapped.redstone_furnace.0"));
   });
 });
