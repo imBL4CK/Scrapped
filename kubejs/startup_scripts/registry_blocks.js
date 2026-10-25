@@ -1,4 +1,26 @@
 StartupEvents.registry("block", (e) => {
+    e.create("scrapped:tin_ore")
+        .tagBoth("minecraft:mineable/pickaxe")
+        .tagBoth("minecraft:needs_iron_stone")
+        .tagBoth("c:ores")
+        .tagBoth("c:ores/tin")
+        .requiresTool(true)
+        .soundType("stone")
+        .hardness(3)
+        .resistance(3)
+        .mapColor(11)
+
+    e.create("scrapped:deepslate_tin_ore")
+        .tagBoth("minecraft:mineable/pickaxe")
+        .tagBoth("minecraft:needs_iron_stone")
+        .tagBoth("c:ores")
+        .tagBoth("c:ores/tin")
+        .requiresTool(true)
+        .soundType("deepslate")
+        .hardness(4.5)
+        .resistance(3)
+        .mapColor(59)
+
     e.create("scrapped:redstone_energy_cell_frame")
         .tagBoth("minecraft:mineable/pickaxe")
         .tagBoth("minecraft:needs_iron_tool")
@@ -56,4 +78,8 @@ StartupEvents.registry("block", (e) => {
         .mapColor(6)
 
     e.create("scrapped:redstone_furnace", "custommachinery:custom_machine");
+    e.create("scrapped:fluid_encapsulator", "custommachinery:custom_machine");
+    e.create("scrapped:magma_crucible", "custommachinery:custom_machine");
+    e.create("scrapped:fractionating_still", "custommachinery:custom_machine");
+    e.create("scrapped:storage_crate", "custommachinery:custom_machine");
 })

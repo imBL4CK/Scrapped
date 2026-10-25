@@ -24,7 +24,8 @@
       "dynamiducts:energy_duct_resonant_from_empty",
       "dynamiducts:energy_duct_reinforced_empty",
       "dynamiducts:energy_duct_superconductor_empty",
-      "custommachinery:configuration_card"
+      "custommachinery:configuration_card",
+      "dynamiducts:tin_ingot_from_iron"
     ]
   }
 ]

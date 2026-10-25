@@ -47,6 +47,19 @@ StartupEvents.registry("fluid", (e) => {
             fluidType.canSwim(false);
             fluidType.canDrown(false);
         })
+
+    //Steam
+    e.create("scrapped:steam")
+        .stillTexture("scrapped:fluid/steam_still")
+        .flowingTexture("scrapped:fluid/steam_flow")
+        .tag("c:steam")
+        .type(fluidType => {
+            fluidType.density(0);
+            fluidType.viscosity(0);
+            fluidType.temperature(473); 
+            fluidType.canSwim(false);
+            fluidType.canDrown(true);
+        })
     
     //Crude Oil
     e.create("scrapped:crude_oil", "thick")

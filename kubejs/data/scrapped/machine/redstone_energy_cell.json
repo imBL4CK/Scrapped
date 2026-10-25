@@ -51,9 +51,17 @@
     },
     {
       "type": "custommachinery:item_upgrade",
+      "whitelist": "#scrapped:device_upgrades",
+      "id": "device_slot",
+      "mode": "input",
+      "capacity": 1
+    },
+    {
+      "type": "custommachinery:item_upgrade",
+      "blacklist": "#scrapped:device_upgrades",
       "id": "upgrade_slot",
       "mode": "input",
-      "capacity": 64
+      "capacity": 1
     }
   ],
   "gui": [
@@ -126,12 +134,24 @@
     },
     {
       "type": "custommachinery:slot",
+      "id": "upgrade_slot",
       "texture_hovered": {
         "texture": "scrapped:textures/gui/widgets/upgrade_slot_hovered.png"
       },
-      "id": "upgrade_slot",
       "texture": {
         "texture": "scrapped:textures/gui/widgets/upgrade_slot.png"
+      },
+      "x": 175,
+      "y": 40
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "device_slot",
+      "texture_hovered": {
+        "texture": "scrapped:textures/gui/widgets/device_slot_hovered.png"
+      },
+      "texture": {
+        "texture": "scrapped:textures/gui/widgets/device_slot.png"
       },
       "x": 175,
       "y": 22
