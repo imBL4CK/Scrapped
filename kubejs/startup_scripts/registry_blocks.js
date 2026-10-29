@@ -81,5 +81,13 @@ StartupEvents.registry("block", (e) => {
     e.create("scrapped:fluid_encapsulator", "custommachinery:custom_machine");
     e.create("scrapped:magma_crucible", "custommachinery:custom_machine");
     e.create("scrapped:fractionating_still", "custommachinery:custom_machine");
-    e.create("scrapped:storage_crate", "custommachinery:custom_machine");
+    
+    e.create("scrapped:aspect_node", "cardinal")
+        .box(0, 0, 0.49, 1, 1, 0.51, false)
+        .opaque(true)
+        .notSolid()
+        .noValidSpawns(true)
+        .suffocating(false)
+        .unbreakable()
+        .noCollision();
 })
