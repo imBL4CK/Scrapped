@@ -1,0 +1,25 @@
+{
+    "item": "scrapped:energy_transfer_augment",
+    "max": 1,
+    "machines": [
+        "scrapped:steam_dynamo",
+        "scrapped:magmatic_dynamo",
+        "scrapped:redstone_energy_cell",
+        "scrapped:redstone_furnace",
+        "scrapped:fractionating_still"
+    ],
+    "components": [
+      {
+        "component": "custommachinery:energy",
+        "target": "max_input",
+        "operation": "multiplication",
+        "modifier": 2
+      },
+      {
+        "component": "custommachinery:energy",
+        "target": "max_output",
+        "operation": "multiplication",
+        "modifier": 2
+      }
+    ]
+}

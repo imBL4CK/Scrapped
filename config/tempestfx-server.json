@@ -1,0 +1,25 @@
+{
+  "nearMiss": {
+    "enabled": true,
+    "radius": 9.0,
+    "maxDamage": 5.0,
+    "igniteSeconds": 2.0,
+    "igniteFraction": 0.45,
+    "affectMobs": true
+  },
+  "ballLightning": {
+    "enabled": true,
+    "chancePerStrike": 0.05,
+    "minimumSpawnDistance": 3.0,
+    "minRadius": 0.35,
+    "maxRadius": 0.75,
+    "minSeconds": 4.0,
+    "maxSeconds": 11.0,
+    "damage": 6.0,
+    "contactDamage": true,
+    "contactRadius": 0.7,
+    "contactCooldownTicks": 10,
+    "igniteSeconds": 3.0,
+    "scorchGround": true
+  }
+}

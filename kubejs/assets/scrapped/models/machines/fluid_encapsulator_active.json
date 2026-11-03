@@ -1,0 +1,6 @@
+{
+    "parent": "scrapped:machines/fluid_encapsulator",
+    "textures": {
+        "face": "scrapped:block/fluid_encapsulator_active"
+    }
+}

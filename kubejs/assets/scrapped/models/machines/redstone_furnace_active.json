@@ -1,0 +1,6 @@
+{
+    "parent": "scrapped:machines/redstone_furnace",
+    "textures": {
+        "face": "scrapped:block/redstone_furnace_active"
+    }
+}

@@ -1,0 +1,13 @@
+{
+  "type": "slag:melting",
+  "ingredient": {
+    "tag": "c:ingots/lumium"
+  },
+  "ingredients": [],
+  "result": [
+    {
+      "id": "scrapped:molten_lumium",
+      "amount": 72
+    }
+  ]
+}

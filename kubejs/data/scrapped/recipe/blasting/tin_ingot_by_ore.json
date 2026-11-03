@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:blasting",
+  "ingredient": {
+    "tag": "c:ores/tin"
+  },
+  "result": {
+    "id": "dynamiducts:tin_ingot"
+  }
+}

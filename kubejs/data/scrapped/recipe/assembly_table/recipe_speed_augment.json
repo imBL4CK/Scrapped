@@ -1,0 +1,33 @@
+{
+    "type": "assemblytable:assembly_table",
+    "energy": 4000,
+    "ingredients": [
+      {
+        "ingredient": {
+          "item": "scrapped:redstone_coil"
+        },
+        "count": 1
+      },
+      {
+        "ingredient": {
+          "tag": "c:gems/diamond"
+        },
+        "count": 1
+      },
+      {
+        "ingredient": {
+          "item": "scrapped:logic_mechanism"
+        },
+        "count": 1
+      },
+      {
+        "ingredient": {
+          "item": "immersiveengineering:component_iron"
+        },
+        "count": 1
+      }
+    ],
+    "result": {
+        "id": "scrapped:recipe_speed_augment"
+    }
+}

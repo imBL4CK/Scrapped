@@ -1,0 +1,219 @@
+{
+  "name": {
+    "text": {
+      "translate": "block.scrapped.redstone_furnace"
+    }
+  },
+  "appearance": {
+    "running": {
+      "custommachinery:ambient_sound": {
+        "sound": "scrapped:block.machine_generic.running"
+      },
+      "custommachinery:block": "scrapped:machines/redstone_furnace_active#standalone"
+    },
+    "custommachinery:block": "scrapped:machines/redstone_furnace#standalone",
+    "custommachinery:keep_inventory": true
+  },
+  "components": [
+    {
+      "type": "custommachinery:energy",
+      "max_output": 4000,
+      "capacity": 64000,
+      "max_input": 4000
+    },
+    {
+      "type": "custommachinery:item",
+      "id": "input_slot",
+      "mode": "input",
+      "capacity": 64
+    },
+    {
+      "type": "custommachinery:item",
+      "config": {
+        "TOP": "INPUT",
+        "BOTTOM": "INPUT",
+        "FRONT": "INPUT",
+        "RIGHT": "INPUT",
+        "BACK": "INPUT",
+        "LEFT": "INPUT"
+      },
+      "id": "output_slot",
+      "mode": "output",
+      "capacity": 64
+    },
+    {
+      "type": "custommachinery:item_energy",
+      "id": "energy_input_slot",
+      "mode": "input",
+      "capacity": 64
+    },
+    {
+      "type": "custommachinery:item_upgrade",
+      "whitelist": "#scrapped:device_upgrades",
+      "id": "device_slot",
+      "mode": "input",
+      "capacity": 1
+    },
+    {
+      "type": "custommachinery:item_upgrade",
+      "blacklist": "#scrapped:device_upgrades",
+      "id": "upgrade_slot",
+      "mode": "input",
+      "capacity": 1
+    }
+  ],
+  "gui": [
+    {
+      "type": "custommachinery:background",
+      "texture": {
+        "texture": "scrapped:textures/gui/container/small_template.png"
+      },
+      "width": 176,
+      "height": 166
+    },
+    {
+      "type": "custommachinery:config",
+      "texture_hovered": {
+        "texture": "scrapped:textures/gui/widgets/config_slot_hovered.png"
+      },
+      "texture": {
+        "texture": "scrapped:textures/gui/widgets/config_slot.png"
+      },
+      "x": 175,
+      "y": 4
+    },
+    {
+      "type": "custommachinery:energy",
+      "texture_filled": {
+        "texture": "scrapped:textures/gui/widgets/energy_icon_filled.png"
+      },
+      "x": 8,
+      "y": 33,
+      "texture_empty": {
+        "texture": "scrapped:textures/gui/widgets/energy_icon_empty.png"
+      }
+    },
+    {
+      "type": "custommachinery:player_inventory",
+      "x": 7,
+      "y": 83
+    },
+    {
+      "type": "custommachinery:progress",
+      "orientation": "TOP",
+      "x": 53,
+      "y": 55,
+      "height": 14,
+      "texture_empty": {
+        "texture": "custommachinery:textures/gui/base_fuel_empty.png"
+      },
+      "texture_filled": {
+        "texture": "custommachinery:textures/gui/base_fuel_filled.png"
+      }
+    },
+    {
+      "type": "custommachinery:progress",
+      "x": 73,
+      "y": 34
+    },
+    {
+      "type": "custommachinery:slot",
+      "texture_hovered": {
+        "texture": "scrapped:textures/gui/widgets/device_slot_hovered.png"
+      },
+      "id": "device_slot",
+      "texture": {
+        "texture": "scrapped:textures/gui/widgets/device_slot.png"
+      },
+      "x": 175,
+      "y": 22
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "energy_input_slot",
+      "texture": {
+        "texture": "scrapped:textures/gui/widgets/energy_slot_input.png"
+      },
+      "x": 7,
+      "y": 57
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "input_slot",
+      "x": 51,
+      "y": 33
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "output_slot",
+      "texture": {
+        "texture": "scrapped:textures/gui/widgets/big_slot.png"
+      },
+      "x": 102,
+      "y": 29
+    },
+    {
+      "type": "custommachinery:slot",
+      "texture_hovered": {
+        "texture": "scrapped:textures/gui/widgets/upgrade_slot_hovered.png"
+      },
+      "id": "upgrade_slot",
+      "texture": {
+        "texture": "scrapped:textures/gui/widgets/upgrade_slot.png"
+      },
+      "x": 175,
+      "y": 40
+    },
+    {
+      "type": "custommachinery:text",
+      "x": 43,
+      "y": 6,
+      "text": {
+        "text": {
+          "translate": "block.scrapped.redstone_furnace"
+        }
+      }
+    }
+  ],
+  "jei": [
+    {
+      "type": "custommachinery:background",
+      "texture": {
+        "texture": "scrapped:textures/gui/container/small_template.png"
+      },
+      "width": 80,
+      "height": 64
+    },
+    {
+      "type": "custommachinery:energy",
+      "texture_filled": {
+        "texture": "scrapped:textures/gui/widgets/energy_icon_filled.png"
+      },
+      "x": 53,
+      "y": 55,
+      "texture_empty": {
+        "texture": "scrapped:textures/gui/widgets/energy_icon_empty.png"
+      }
+    },
+    {
+      "type": "custommachinery:progress",
+      "x": 77,
+      "y": 34
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "input_slot",
+      "x": 51,
+      "y": 33
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "output_slot",
+      "texture": {
+        "texture": "scrapped:textures/gui/widgets/big_slot.png"
+      },
+      "x": 110,
+      "y": 29
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+#ON: Spawn Spires lets you enter a bed at any time for healing, but the night cannot be skipped.
+#
+#OFF: Default Minecraft bed behavior.
+#
+#
+#(Aside from direct bed changes, this sets the PlayersSleepingPercentage gamerule on world load.)
+applybedchanges = true

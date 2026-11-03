@@ -1,0 +1,290 @@
+{
+  "name": {
+    "text": {
+      "translate": "block.scrapped.disc_engraver"
+    }
+  },
+  "appearance": {
+    "running": {
+      "custommachinery:ambient_sound": {
+        "sound": "minecraft:ui.cartography_table.take_result"
+      },
+      "custommachinery:block": "scrapped:machines/disc_engraver_active#standalone"
+    },
+    "custommachinery:block": "scrapped:machines/disc_engraver#standalone",
+    "custommachinery:shape": {
+      "north": [
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.5,
+        1.0
+      ],
+      "south": [
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.5,
+        1.0
+      ],
+      "west": [
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.5,
+        1.0
+      ],
+      "east": [
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.5,
+        1.0
+      ]
+    }
+  },
+  "components": [
+    {
+      "type": "custommachinery:item",
+      "id": "input_slot_1",
+      "mode": "input",
+      "capacity": 64
+    },
+    {
+      "type": "custommachinery:item",
+      "id": "input_slot_2",
+      "mode": "input",
+      "capacity": 64
+    },
+    {
+      "type": "custommachinery:item",
+      "id": "input_slot_3",
+      "mode": "input",
+      "capacity": 64
+    },
+    {
+      "type": "custommachinery:item",
+      "config": {
+        "TOP": "OUTPUT",
+        "BOTTOM": "OUTPUT",
+        "FRONT": "OUTPUT",
+        "RIGHT": "OUTPUT",
+        "BACK": "OUTPUT",
+        "LEFT": "OUTPUT"
+      },
+      "id": "output_slot",
+      "mode": "output",
+      "capacity": 64
+    }
+  ],
+  "gui": [
+    {
+      "type": "custommachinery:background",
+      "texture": {
+        "texture": "scrapped:textures/gui/container/small_template.png"
+      },
+      "width": 176,
+      "height": 166
+    },
+    {
+      "type": "custommachinery:button",
+      "toggle": true,
+      "texture_hovered": {
+        "texture": "scrapped:textures/gui/widgets/play_button_hovered.png"
+      },
+      "id": "engrave_button",
+      "texture": {
+        "texture": "scrapped:textures/gui/widgets/play_button.png"
+      },
+      "x": 43,
+      "y": 61,
+      "texture_toggle": {
+        "texture": "scrapped:textures/gui/widgets/pause_button.png"
+      },
+      "texture_toggle_hovered": {
+        "texture": "scrapped:textures/gui/widgets/pause_button_hovered.png"
+      }
+    },
+    {
+      "type": "custommachinery:config",
+      "texture_hovered": {
+        "texture": "scrapped:textures/gui/widgets/config_slot_hovered.png"
+      },
+      "texture": {
+        "texture": "scrapped:textures/gui/widgets/config_slot.png"
+      },
+      "x": 175,
+      "y": 4
+    },
+    {
+      "type": "custommachinery:player_inventory",
+      "x": 7,
+      "y": 83
+    },
+    {
+      "type": "custommachinery:progress",
+      "x": 47,
+      "y": 14,
+      "texture_empty": {
+        "texture": "scrapped:textures/gui/widgets/disc_engraver_progess_bar_empty.png"
+      },
+      "texture_filled": {
+        "texture": "scrapped:textures/gui/widgets/disc_engraver_progess_bar_filled.png"
+      }
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "input_slot_1",
+      "x": 25,
+      "y": 39
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "input_slot_2",
+      "x": 43,
+      "y": 39
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "input_slot_3",
+      "x": 61,
+      "y": 39
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "output_slot",
+      "texture": {
+        "texture": "scrapped:textures/gui/widgets/big_slot.png"
+      },
+      "x": 121,
+      "y": 39
+    },
+    {
+      "type": "custommachinery:text",
+      "x": 12,
+      "y": 6,
+      "text": {
+        "text": {
+          "translate": "block.scrapped.disc_engraver"
+        }
+      }
+    },
+    {
+      "type": "custommachinery:texture",
+      "texture": {
+        "texture": "scrapped:textures/gui/elements/disc.png"
+      },
+      "x": 16,
+      "y": 49,
+      "jei": false,
+      "z_level": 101
+    }
+  ],
+  "jei": [
+    {
+      "type": "custommachinery:background",
+      "texture": {
+        "texture": "scrapped:textures/gui/container/small_template.png"
+      },
+      "width": 176,
+      "height": 166
+    },
+    {
+      "type": "custommachinery:button",
+      "toggle": true,
+      "texture_hovered": {
+        "texture": "scrapped:textures/gui/widgets/play_button_hovered.png"
+      },
+      "id": "engrave_button",
+      "texture": {
+        "texture": "scrapped:textures/gui/widgets/play_button.png"
+      },
+      "x": 43,
+      "y": 61,
+      "texture_toggle": {
+        "texture": "scrapped:textures/gui/widgets/pause_button.png"
+      },
+      "texture_toggle_hovered": {
+        "texture": "scrapped:textures/gui/widgets/pause_button_hovered.png"
+      }
+    },
+    {
+      "type": "custommachinery:config",
+      "texture_hovered": {
+        "texture": "scrapped:textures/gui/widgets/config_slot_hovered.png"
+      },
+      "texture": {
+        "texture": "scrapped:textures/gui/widgets/config_slot.png"
+      },
+      "x": 175,
+      "y": 4
+    },
+    {
+      "type": "custommachinery:player_inventory",
+      "x": 7,
+      "y": 83
+    },
+    {
+      "type": "custommachinery:progress",
+      "x": 47,
+      "y": 14,
+      "texture_empty": {
+        "texture": "scrapped:textures/gui/widgets/disc_engraver_progess_bar_empty.png"
+      },
+      "texture_filled": {
+        "texture": "scrapped:textures/gui/widgets/disc_engraver_progess_bar_filled.png"
+      }
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "input_slot_1",
+      "x": 25,
+      "y": 39
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "input_slot_2",
+      "x": 43,
+      "y": 39
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "input_slot_3",
+      "x": 61,
+      "y": 39
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "output_slot",
+      "texture": {
+        "texture": "scrapped:textures/gui/widgets/big_slot.png"
+      },
+      "x": 121,
+      "y": 39
+    },
+    {
+      "type": "custommachinery:text",
+      "x": 12,
+      "y": 6,
+      "text": {
+        "text": {
+          "translate": "block.scrapped.disc_engraver"
+        }
+      }
+    },
+    {
+      "type": "custommachinery:texture",
+      "texture": {
+        "texture": "scrapped:textures/gui/elements/disc_jei.png"
+      },
+      "x": 16,
+      "y": 49,
+      "jei": true,
+      "z_level": 0
+    }
+  ]
+}

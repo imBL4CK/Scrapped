@@ -1,0 +1,13 @@
+{
+  "type": "slag:melting",
+  "ingredient": {
+    "tag": "c:cinnabar"
+  },
+  "ingredients": [],
+  "result": [
+    {
+      "id": "slag:molten_redstone",
+      "amount": 144
+    }
+  ]
+}

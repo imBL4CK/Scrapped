@@ -1,0 +1,19 @@
+{
+    "item": "scrapped:energy_capacity_augment",
+    "max": 1,
+    "machines": [
+        "scrapped:steam_dynamo",
+        "scrapped:magmatic_dynamo",
+        "scrapped:redstone_energy_cell",
+        "scrapped:redstone_furnace",
+        "scrapped:fractionating_still"
+    ],
+    "components": [
+      {
+        "component": "custommachinery:energy",
+        "target": "capacity",
+        "operation": "multiplication",
+        "modifier": 2
+      }
+    ]
+}

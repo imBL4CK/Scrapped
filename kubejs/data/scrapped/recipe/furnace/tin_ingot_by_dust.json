@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "tag": "c:dusts/tin"
+  },
+  "result": {
+    "id": "dynamiducts:tin_ingot"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "type": "slag:table_casting",
+  "cast": "slag:cast/nuggets",
+  "ingredient": {
+    "amount": 8,
+    "tag": "c:molten/lumium"
+  },
+  "result": {
+    "id": "dynamiducts:lumium_nugget",
+    "count": 1
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "type": "malum:spirit_infusion",
+  "carryOverComponentData": true,
+  "extraInputs": [
+    {
+      "item": "malum:convoluted_lens",
+      "count": 3
+    },
+    {
+      "item": "malum:soulwoven_silk"
+    }
+  ],
+  "input": {
+    "item": "malum:soul_stained_steel_helmet",
+    "count": 1
+  },
+  "result": {
+    "id": "scrapped:alchemists_vision"
+  },
+  "spirits": [
+    {
+      "type": "malum:eldritch",
+      "count": 8
+    },
+    {
+      "type": "malum:arcane",
+      "count": 4
+    }
+  ]
+}

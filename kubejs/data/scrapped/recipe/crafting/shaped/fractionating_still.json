@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " S ",
+    "BMB",
+    "ILI"
+  ],
+  "key": {
+    "S": {
+      "item": "minecraft:brewing_stand"
+    },
+    "B": {
+      "item": "minecraft:nether_bricks"
+    },
+    "M": {
+      "item": "scrapped:machine_frame"
+    },
+    "I": {
+      "tag": "c:ingots/bronze"
+    },
+    "L": {
+      "item": "scrapped:logic_mechanism"
+    }
+  },
+  "result": {
+    "id": "scrapped:fractionating_still"
+  }
+}

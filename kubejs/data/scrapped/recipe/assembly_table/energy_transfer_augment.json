@@ -1,0 +1,27 @@
+{
+    "type": "assemblytable:assembly_table",
+    "energy": 4000,
+    "ingredients": [
+      {
+        "ingredient": {
+          "item": "scrapped:redstone_coil"
+        },
+        "count": 1
+      },
+      {
+        "ingredient": {
+          "tag": "c:ingots/gold"
+        },
+        "count": 2
+      },
+      {
+        "ingredient": {
+          "item": "immersiveengineering:component_iron"
+        },
+        "count": 1
+      }
+    ],
+    "result": {
+        "id": "scrapped:energy_transfer_augment"
+    }
+}

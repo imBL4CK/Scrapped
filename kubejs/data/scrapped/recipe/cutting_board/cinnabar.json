@@ -1,0 +1,39 @@
+{
+  "type": "farmersdelight:cutting",
+  "ingredients": [
+    {
+      "item": "scrapped:cinnabar_cluster"
+    }
+  ],
+  "result": [
+    {
+      "item": {
+        "id": "minecraft:redstone",
+        "count": 1
+      }
+    },
+    {
+      "item": {
+        "id": "minecraft:redstone",
+        "count": 1
+      },
+      "chance": 0.5
+    },
+    {
+      "item": {
+        "id": "minecraft:redstone",
+        "count": 1
+      },
+      "chance": 0.5
+    }
+  ],
+  "tool": [
+    {
+      "type": "farmersdelight:item_ability",
+      "action": "pickaxe_dig"
+    },
+    {
+      "tag": "c:tools/hammers"
+    }
+  ]
+}

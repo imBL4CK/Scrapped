@@ -1,0 +1,40 @@
+{
+	"parent": "minecraft:item/generated",
+	"textures": {
+		"layer0": "scrapped:block/aspect_node"
+	},
+	"overrides": [
+		{
+		  "predicate": { "custom_model_data": 0 },
+		  "model": "scrapped:block/aspect_node_sacred"
+		},
+		{
+		  "predicate": { "custom_model_data": 1 },
+		  "model": "scrapped:block/aspect_node_wicked"
+		},
+		{
+		  "predicate": { "custom_model_data": 2 },
+		  "model": "scrapped:block/aspect_node_arcane"
+		},
+		{
+		  "predicate": { "custom_model_data": 3 },
+		  "model": "scrapped:block/aspect_node_eldritch"
+		},
+		{
+		  "predicate": { "custom_model_data": 4 },
+		  "model": "scrapped:block/aspect_node_aerial"
+		},
+		{
+		  "predicate": { "custom_model_data": 5 },
+		  "model": "scrapped:block/aspect_node_infernal"
+		},
+		{
+		  "predicate": { "custom_model_data": 6 },
+		  "model": "scrapped:block/aspect_node_aqueous"
+		},
+		{
+		  "predicate": { "custom_model_data": 7 },
+		  "model": "scrapped:block/aspect_node_earthen"
+		}
+	]
+}

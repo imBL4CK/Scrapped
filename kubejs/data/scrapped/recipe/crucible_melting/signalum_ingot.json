@@ -1,0 +1,13 @@
+{
+  "type": "slag:melting",
+  "ingredient": {
+    "tag": "c:ingots/signalum"
+  },
+  "ingredients": [],
+  "result": [
+    {
+      "id": "scrapped:molten_signalum",
+      "amount": 72
+    }
+  ]
+}

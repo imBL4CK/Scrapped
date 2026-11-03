@@ -1,0 +1,12 @@
+{
+  "type": "slag:table_casting",
+  "cast": "slag:cast/nuggets",
+  "ingredient": {
+    "amount": 8,
+    "tag": "c:molten/soul_stained_steel"
+  },
+  "result": {
+    "id": "malum:soul_stained_steel_nugget",
+    "count": 1
+  }
+}

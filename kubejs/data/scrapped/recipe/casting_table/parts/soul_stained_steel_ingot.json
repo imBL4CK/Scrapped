@@ -1,0 +1,12 @@
+{
+  "type": "slag:table_casting",
+  "cast": "slag:cast/ingots",
+  "ingredient": {
+    "amount": 72,
+    "tag": "c:molten/soul_stained_steel"
+  },
+  "result": {
+    "id": "malum:soul_stained_steel_ingot",
+    "count": 1
+  }
+}

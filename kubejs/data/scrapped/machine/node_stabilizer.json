@@ -1,0 +1,120 @@
+{
+  "name": {
+    "text": {
+      "translate": "block.scrapped.node_stabilizer"
+    }
+  },
+  "appearance": {
+    "running": {
+      "custommachinery:ambient_sound": {
+        "sound": "malum:spirit_crucible_focuses"
+      }
+    },
+    "custommachinery:block": "scrapped:machines/node_stabilizer_alt#standalone",
+    "custommachinery:shape": [
+        [0, 0, 0, 1, 0.25, 1],
+        [0.1875, 0.25, 0.1875, 0.8125, 0.75, 0.8125],
+        [0, 0.6875, 0, 1, 0.875, 0.25],
+        [0, 0.6875, 0.75, 1, 0.875, 1],
+        [0, 0.6875, 0.25, 0.25, 0.875, 0.75],
+        [0.75, 0.6875, 0.25, 1, 0.875, 0.75],
+        [0.75, 0.5, 0.375, 1, 0.6875, 0.625],
+        [0, 0.5, 0.375, 0.25, 0.6875, 0.625],
+        [0.375, 0.5, 0, 0.625, 0.6875, 0.25],
+        [0.375, 0.5, 0.75, 0.625, 0.6875, 1]
+    ]
+  },
+  "components": [
+    {
+      "type": "custommachinery:energy",
+      "max_output": 4000,
+      "capacity": 64000,
+      "max_input": 4000
+    },
+    {
+      "type": "custommachinery:fluid",
+      "mode": "output",
+      "config": {
+        "TOP": "OUTPUT",
+        "BOTTOM": "OUTPUT",
+        "FRONT": "OUTPUT",
+        "RIGHT": "OUTPUT",
+        "BACK": "OUTPUT",
+        "LEFT": "OUTPUT"
+      },
+      "id": "corruption_tank",
+      "capacity": 1000
+    },
+    {
+      "type": "custommachinery:item",
+      "config": {
+        "TOP": "OUTPUT",
+        "BOTTOM": "OUTPUT",
+        "FRONT": "OUTPUT",
+        "RIGHT": "OUTPUT",
+        "BACK": "OUTPUT",
+        "LEFT": "OUTPUT",
+        "output": true
+      },
+      "id": "spirit_slot",
+      "mode": "output",
+      "capacity": 64
+    },
+    {
+      "type": "custommachinery:item",
+      "config": {
+        "TOP": "NONE",
+        "BOTTOM": "NONE",
+        "FRONT": "NONE",
+        "RIGHT": "NONE",
+        "BACK": "NONE",
+        "LEFT": "NONE"
+      },
+      "id": "dummy_slot",
+      "mode": "output",
+      "capacity": 64
+    }
+  ],
+  "jei": [
+    {
+      "type": "custommachinery:slot",
+      "id": "dummy_slot",
+      "x": 0,
+      "y": 4
+    },
+    {
+      "type": "custommachinery:energy",
+      "texture_filled": {
+        "texture": "scrapped:textures/gui/widgets/energy_icon_filled.png"
+      },
+      "texture_empty": {
+        "texture": "scrapped:textures/gui/widgets/energy_icon_empty.png"
+      },
+      "x": 0,
+      "y": 26
+    },
+    {
+      "type": "custommachinery:progress",
+      "x": 22,
+      "y": 6
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "spirit_slot",
+      "texture": {
+        "texture": "scrapped:textures/gui/widgets/big_slot.png"
+      },
+      "x": 48,
+      "y": 0
+    },
+    {
+      "type": "custommachinery:fluid",
+      "id": "corruption_tank",
+      "texture": {
+        "texture": "custommachinery:textures/gui/base_slot.png"
+      },
+      "x": 52,
+      "y": 28
+    }
+  ]
+}

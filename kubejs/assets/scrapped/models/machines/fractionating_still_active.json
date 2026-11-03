@@ -1,0 +1,6 @@
+{
+    "parent": "scrapped:machines/fractionating_still",
+    "textures": {
+        "face": "scrapped:block/fractionating_still_active"
+    }
+}

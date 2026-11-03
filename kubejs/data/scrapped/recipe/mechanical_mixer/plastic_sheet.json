@@ -1,0 +1,26 @@
+{
+  "type": "create:mixing",
+  "heat_requirement": "heated",
+  "ingredients": [
+    {
+      "item": "minecraft:coal",
+      "count": 2
+    },
+    {
+      "fluid": "scrapped:crude_oil",
+      "type": "fluid_stack",
+      "amount": 90
+    },
+    {
+      "fluid": "scrapped:refined_fuel",
+      "type": "fluid_stack",
+      "amount": 10
+    }
+  ],
+  "results": [
+    {
+        "id": "scrapped:plastic_sheet",
+        "count": 2
+    }
+  ]
+}

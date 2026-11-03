@@ -1,0 +1,27 @@
+{
+    "type": "assemblytable:assembly_table",
+    "energy": 1000,
+    "ingredients": [
+      {
+        "ingredient": {
+          "tag": "c:plates/iron"
+        },
+        "count": 1
+      },
+      {
+        "ingredient": {
+          "tag": "c:gems/quartz"
+        },
+        "count": 1
+      },
+      {
+        "ingredient": {
+          "tag": "c:gems/lapis"
+        },
+        "count": 2
+      }
+    ],
+    "result": {
+        "id": "scrapped:shiny_tubes"
+    }
+}

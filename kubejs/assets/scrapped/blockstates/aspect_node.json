@@ -1,0 +1,43 @@
+{
+  "variants": {
+    "aspect=0,facing=north": { "model": "scrapped:block/aspect_node_sacred" },
+    "aspect=0,facing=east": { "model": "scrapped:block/aspect_node_sacred", "y": 90 },
+    "aspect=0,facing=south": { "model": "scrapped:block/aspect_node_sacred", "y": 180 },
+    "aspect=0,facing=west": { "model": "scrapped:block/aspect_node_sacred", "y": 270 },
+
+    "aspect=1,facing=north": { "model": "scrapped:block/aspect_node_wicked" },
+    "aspect=1,facing=east": { "model": "scrapped:block/aspect_node_wicked", "y": 90 },
+    "aspect=1,facing=south": { "model": "scrapped:block/aspect_node_wicked", "y": 180 },
+    "aspect=1,facing=west": { "model": "scrapped:block/aspect_node_wicked", "y": 270 },
+    
+    "aspect=2,facing=north": { "model": "scrapped:block/aspect_node_arcane" },
+    "aspect=2,facing=east": { "model": "scrapped:block/aspect_node_arcane", "y": 90 },
+    "aspect=2,facing=south": { "model": "scrapped:block/aspect_node_arcane", "y": 180 },
+    "aspect=2,facing=west": { "model": "scrapped:block/aspect_node_arcane", "y": 270 },
+    
+    "aspect=3,facing=north": { "model": "scrapped:block/aspect_node_eldritch" },
+    "aspect=3,facing=east": { "model": "scrapped:block/aspect_node_eldritch", "y": 90 },
+    "aspect=3,facing=south": { "model": "scrapped:block/aspect_node_eldritch", "y": 180 },
+    "aspect=3,facing=west": { "model": "scrapped:block/aspect_node_eldritch", "y": 270 },
+    
+    "aspect=4,facing=north": { "model": "scrapped:block/aspect_node_aerial" },
+    "aspect=4,facing=east": { "model": "scrapped:block/aspect_node_aerial", "y": 90 },
+    "aspect=4,facing=south": { "model": "scrapped:block/aspect_node_aerial", "y": 180 },
+    "aspect=4,facing=west": { "model": "scrapped:block/aspect_node_aerial", "y": 270 },
+    
+    "aspect=5,facing=north": { "model": "scrapped:block/aspect_node_infernal" },
+    "aspect=5,facing=east": { "model": "scrapped:block/aspect_node_infernal", "y": 90 },
+    "aspect=5,facing=south": { "model": "scrapped:block/aspect_node_infernal", "y": 180 },
+    "aspect=5,facing=west": { "model": "scrapped:block/aspect_node_infernal", "y": 270 },
+    
+    "aspect=6,facing=north": { "model": "scrapped:block/aspect_node_aqueous" },
+    "aspect=6,facing=east": { "model": "scrapped:block/aspect_node_aqueous", "y": 90 },
+    "aspect=6,facing=south": { "model": "scrapped:block/aspect_node_aqueous", "y": 180 },
+    "aspect=6,facing=west": { "model": "scrapped:block/aspect_node_aqueous", "y": 270 },
+    
+    "aspect=7,facing=north": { "model": "scrapped:block/aspect_node_earthen" },
+    "aspect=7,facing=east": { "model": "scrapped:block/aspect_node_earthen", "y": 90 },
+    "aspect=7,facing=south": { "model": "scrapped:block/aspect_node_earthen", "y": 180 },
+    "aspect=7,facing=west": { "model": "scrapped:block/aspect_node_earthen", "y": 270 }
+  }
+}

@@ -1,0 +1,28 @@
+{
+    "type": "assemblytable:assembly_table",
+    "energy": 32000,
+    "ingredients": [
+      {
+        "ingredient": {
+          "tag": "c:ingots/bronze"
+        },
+        "count": 4
+      },
+      {
+        "ingredient": {
+          "item": "minecraft:tinted_glass"
+        },
+        "count": 4
+      },
+      {
+        "ingredient": {
+          "item": "dynamiducts:fluid_duct_hardened"
+        },
+        "count": 1
+      }
+    ],
+    "result": {
+        "id": "dynamiducts:fluid_duct_super",
+        "count": 6
+    }
+}

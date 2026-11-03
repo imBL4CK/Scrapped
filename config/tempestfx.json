@@ -1,0 +1,72 @@
+{
+  "general": {
+    "enabled": true,
+    "debug": false,
+    "reducedFlashing": false
+  },
+  "lightning": {
+    "geometryQuality": 7,
+    "branchCount": 18,
+    "thickness": 1.0,
+    "glowStrength": 1.0,
+    "flicker": true,
+    "coldTint": 1.0,
+    "returnStrokes": 3,
+    "scale": 1.0,
+    "skySpread": 1.0
+  },
+  "impact": {
+    "shockwave": true,
+    "shockwaveStrength": 1.0,
+    "debris": true,
+    "sparks": true,
+    "smoke": true,
+    "ash": true,
+    "airDistortion": true,
+    "airDistortionStrength": 1.0,
+    "surfaceRipple": true,
+    "entityDischarge": true,
+    "entityDischargeRadius": 10.0,
+    "entityDischargeMinSpeed": 0.02,
+    "ashImprint": true,
+    "ashImprintSeconds": 18.0,
+    "ballLightningEffects": true
+  },
+  "lighting": {
+    "dynamicLighting": true,
+    "illuminationRadius": 28.0,
+    "illuminationStrength": 1.0,
+    "worldFlash": true,
+    "worldFlashTicks": 4,
+    "distantBolts": true
+  },
+  "camera": {
+    "screenFlash": true,
+    "flashStrength": 1.0,
+    "cameraImpulse": true,
+    "impulseStrength": 0.35
+  },
+  "audio": {
+    "customThunder": true,
+    "suppressVanillaThunder": true,
+    "thunderVolume": 1.0,
+    "realisticSoundDelay": true,
+    "maxThunderDistance": 512.0,
+    "giantRoll": true,
+    "giantRollChance": 0.28,
+    "giantRollDistance": 160.0
+  },
+  "performance": {
+    "qualityPreset": "HIGH",
+    "maxParticles": 2048,
+    "renderDistance": 384.0,
+    "lod": true,
+    "maxConcurrentEffects": 48
+  },
+  "compatibility": {
+    "shaderCompatibilityMode": "AUTO",
+    "bloomMode": "AUTO",
+    "customShaders": true,
+    "effectCompositor": true
+  }
+}

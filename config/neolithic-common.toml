@@ -1,0 +1,18 @@
+#New Spawns - the biomes, weights and group sizes Neolithic gives each mob.
+#Turning one off leaves that mob spawning wherever vanilla and other mods put it. Needs a game restart
+[new_spawns]
+	#Enable or disable the new goat spawns
+	#Default=true
+	enableGoatNewSpawn = true
+	#Enable or disable the new cow spawns
+	#Default=true
+	enableCowNewSpawn = true
+	#Enable or disable the new chicken spawns
+	#Default=true
+	enableChickenNewSpawn = true
+	#Enable or disable the new pig spawns
+	#Default=true
+	enablePigNewSpawn = true
+	#Enable or disable the new sheep spawns
+	#Default=true
+	enableSheepNewSpawn = true

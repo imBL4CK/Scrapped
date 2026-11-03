@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ITI",
+    "S S",
+    "ITI"
+  ],
+  "key": {
+    "I": {
+      "tag": "c:ingots/invar"
+    },
+    "T": {
+      "tag": "c:ingots/tin"
+    },
+    "S": {
+      "item": "immersiveengineering:component_steel"
+    }
+  },
+  "result": {
+    "id": "scrapped:machine_frame",
+    "count": 1
+  }
+}

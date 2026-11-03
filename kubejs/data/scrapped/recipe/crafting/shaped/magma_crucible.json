@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " C ",
+    "BMB",
+    "ILI"
+  ],
+  "key": {
+    "C": {
+      "item": "minecraft:cauldron"
+    },
+    "B": {
+      "item": "minecraft:nether_bricks"
+    },
+    "M": {
+      "item": "scrapped:machine_frame"
+    },
+    "I": {
+      "tag": "c:ingots/bronze"
+    },
+    "L": {
+      "item": "scrapped:logic_mechanism"
+    }
+  },
+  "result": {
+    "id": "scrapped:magma_crucible"
+  }
+}

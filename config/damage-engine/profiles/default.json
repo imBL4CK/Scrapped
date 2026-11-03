@@ -1,0 +1,162 @@
+{
+  "showDamage": true,
+  "hideOnF1": true,
+  "hudInertiaMode": "de_only",
+  "hudInertiaStrength": 100,
+  "numberSeparator": true,
+  "abbreviateNumbers": false,
+  "showDamageOverflow": false,
+  "showDamageDisplay": true,
+  "alignMode": "right",
+  "decimalPlaces": 1,
+  "normalColor": -1,
+  "critColor": 16766720,
+  "resetEnabled": true,
+  "resetTime": 10.0,
+  "showProgressBar": true,
+  "progressBarColor": -1,
+  "showCombo": true,
+  "comboColor": 16755200,
+  "showDamageHistory": true,
+  "recordOtherPlayers": false,
+  "shareDamage": true,
+  "historyDisappearanceTime": 10.0,
+  "historyLimit": 20,
+  "historyDecimalPlaces": 1,
+  "showDamageIndicator": true,
+  "indicatorMerge": false,
+  "indicatorTrackEntity": false,
+  "indicatorDecimalPlaces": 1,
+  "indicatorMode": "enhanced",
+  "indicatorCharClips": "",
+  "indicatorTextProps": "",
+  "indicatorBold": false,
+  "showHealIndicator": false,
+  "healIndicatorColor": -5117246,
+  "indicatorPrefixSign": false,
+  "showGlobalDamageIndicator": false,
+  "globalIndicatorMaxDistance": 128.0,
+  "globalIndicatorSmartHide": false,
+  "globalEntityBlockMode": false,
+  "globalEntityRules": [
+    {
+      "registryName": "All",
+      "distance": 0.0
+    }
+  ],
+  "killText": "Kill!",
+  "killTextColor": -424323,
+  "showKillIndicator": true,
+  "damageIndicatorNormalColor": -1,
+  "damageIndicatorCritColor": 16766720,
+  "damageIndicatorKillColor": -227202,
+  "showInfo": false,
+  "infoTrackTime": 15.0,
+  "entityRenderEnabled": true,
+  "entityRenderRotation": "custom",
+  "entityRenderRotationAngle": 30,
+  "infoNoRoundedBorder": false,
+  "infoBackgroundColor": -16777216,
+  "infoBackgroundOpacity": 25,
+  "infoBarColor": -5117246,
+  "infoBarHealColor": -5117246,
+  "infoBarDamageColor": -424323,
+  "showRating": true,
+  "ratingResetTime": 10.0,
+  "comboPoints": 0.2,
+  "hitPoints": 6.0,
+  "critPoints": 10.0,
+  "damageScoreMultiplier": 0.5,
+  "damageBonuses": [],
+  "ratingUseImages": false,
+  "ratingGrades": [
+    {
+      "minScore": 1000.0,
+      "text": "S",
+      "color": 16766720,
+      "index": 1,
+      "imagePath": ""
+    },
+    {
+      "minScore": 500.0,
+      "text": "A",
+      "color": 16737095,
+      "index": 2,
+      "imagePath": ""
+    },
+    {
+      "minScore": 250.0,
+      "text": "B",
+      "color": 49151,
+      "index": 3,
+      "imagePath": ""
+    },
+    {
+      "minScore": 100.0,
+      "text": "C",
+      "color": 3329330,
+      "index": 4,
+      "imagePath": ""
+    },
+    {
+      "minScore": 20.0,
+      "text": "D",
+      "color": 10526880,
+      "index": 5,
+      "imagePath": ""
+    }
+  ],
+  "debugMode": false,
+  "debugShowDamageInfo": false,
+  "debugShowRating": false,
+  "previewEnabled": false,
+  "hasShownWelcomeMessage": true,
+  "totalDamageConfig": {
+    "x": 0.8160156,
+    "y": 0.37278107,
+    "scale": 0.95652175,
+    "enabled": true
+  },
+  "comboConfig": {
+    "x": 0.8828125,
+    "y": 0.2611276,
+    "scale": 0.95652175,
+    "enabled": true
+  },
+  "historyConfig": {
+    "x": 0.9359375,
+    "y": 0.3305973,
+    "scale": 0.95652175,
+    "enabled": true
+  },
+  "infoConfig": {
+    "x": 0.61875,
+    "y": 0.59909815,
+    "scale": 0.5539445,
+    "enabled": true
+  },
+  "ratingConfig": {
+    "x": 0.7867187,
+    "y": 0.31508327,
+    "scale": 1.4066461,
+    "enabled": true
+  },
+  "damageThresholds": [
+    {
+      "threshold": 0.0,
+      "color": -1
+    },
+    {
+      "threshold": 25.0,
+      "color": 4172272
+    },
+    {
+      "threshold": 50.0,
+      "color": 16536828
+    },
+    {
+      "threshold": 100.0,
+      "color": 16766720
+    }
+  ]
+}

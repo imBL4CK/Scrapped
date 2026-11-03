@@ -1,0 +1,6 @@
+{
+    "parent": "scrapped:block/aspect_node",
+	"textures": {
+		"0": "scrapped:block/aspect_node_earthen"
+	}
+}

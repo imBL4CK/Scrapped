@@ -1,0 +1,5 @@
+{
+  "tooltip.enderio.grinding_ball_main_output": "§6└ §fMain Output: %s%%",
+  "tooltip.enderio.grinding_ball_bonus_output": "§6└ §fBonus Output: %s%%",
+  "tooltip.enderio.grinding_ball_power_use": "§6└ §fEnergy Use: %s%%"
+}

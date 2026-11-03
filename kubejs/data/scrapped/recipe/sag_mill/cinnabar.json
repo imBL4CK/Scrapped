@@ -1,0 +1,22 @@
+{
+  "type": "enderio:sag_milling",
+  "energy": 2400,
+  "input": {
+      "item": "scrapped:cinnabar_cluster"
+  },
+  "outputs": [
+    {
+      "item": {
+        "id": "minecraft:redstone",
+        "count": 1
+      }
+    },
+    {
+      "item": {
+        "id": "minecraft:redstone",
+        "count": 2
+      },
+      "chance": 0.5
+    }
+  ]
+}

@@ -1,0 +1,1 @@
+Platform.mods.custommachinery.name = "Scrapped";

@@ -1,0 +1,16 @@
+{
+  "type": "slag:table_casting",
+  "cast": "slag:cast/boots",
+  "ingredient": {
+    "amount": 144,
+    "tag": "c:molten/soul_stained_steel"
+  },
+  "result": {
+    "components": {
+      "slag:material_type": "scrapped:soul_stained_steel",
+      "slag:part_type": "slag:boots"
+    },
+    "count": 1,
+    "id": "slag:dynamic_part"
+  }
+}

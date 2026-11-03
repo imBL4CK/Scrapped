@@ -1,0 +1,6 @@
+{
+    "parent": "scrapped:machines/magma_crucible",
+    "textures": {
+        "face": "scrapped:block/magma_crucible_active"
+    }
+}

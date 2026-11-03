@@ -1,0 +1,6 @@
+{
+	"parent": "scrapped:item/tower_key",
+	"textures": {
+		"layer0": "scrapped:item/ominous_tower_key"
+	}
+}

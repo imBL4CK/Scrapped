@@ -1,0 +1,157 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "rolls": 1,
+      "bonus_rolls": 0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "scrapped:bronze_pile",
+          "conditions": [
+            {
+              "condition": "minecraft:block_state_property",
+              "block": "scrapped:bronze_pile",
+              "properties": {
+                "layers": "1"
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "scrapped:bronze_pile",
+          "conditions": [
+            {
+              "condition": "minecraft:block_state_property",
+              "block": "scrapped:bronze_pile",
+              "properties": {
+                "layers": "2"
+              }
+            }
+          ],
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 2
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "scrapped:bronze_pile",
+          "conditions": [
+            {
+              "condition": "minecraft:block_state_property",
+              "block": "scrapped:bronze_pile",
+              "properties": {
+                "layers": "3"
+              }
+            }
+          ],
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 3
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "scrapped:bronze_pile",
+          "conditions": [
+            {
+              "condition": "minecraft:block_state_property",
+              "block": "scrapped:bronze_pile",
+              "properties": {
+                "layers": "4"
+              }
+            }
+          ],
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 4
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "scrapped:bronze_pile",
+          "conditions": [
+            {
+              "condition": "minecraft:block_state_property",
+              "block": "scrapped:bronze_pile",
+              "properties": {
+                "layers": "5"
+              }
+            }
+          ],
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 5
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "scrapped:bronze_pile",
+          "conditions": [
+            {
+              "condition": "minecraft:block_state_property",
+              "block": "scrapped:bronze_pile",
+              "properties": {
+                "layers": "6"
+              }
+            }
+          ],
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 6
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "scrapped:bronze_pile",
+          "conditions": [
+            {
+              "condition": "minecraft:block_state_property",
+              "block": "scrapped:bronze_pile",
+              "properties": {
+                "layers": "7"
+              }
+            }
+          ],
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 7
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "scrapped:bronze_pile",
+          "conditions": [
+            {
+              "condition": "minecraft:block_state_property",
+              "block": "scrapped:bronze_pile",
+              "properties": {
+                "layers": "8"
+              }
+            }
+          ],
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 8
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

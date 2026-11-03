@@ -1,0 +1,25 @@
+ServerEvents.recipes((e) => {
+  e.recipes.custommachinery.custom_machine("scrapped:disc_engraver", 200)
+    .requireItemOnEnd("#c:paper")
+    .requireItemOnEnd("#c:gems/lapis")
+    .requireItemOnEnd("minecraft:redstone")
+    .produceItem("custommachinery:configuration_card")
+    .requireButtonPressed("engrave_button")
+    .resetOnError()
+    
+  e.recipes.custommachinery.custom_machine("scrapped:disc_engraver", 200)
+    .requireItemOnEnd("#c:plastics")
+    .requireItemOnEnd("immersiveengineering:component_electronic")
+    .requireItemOnEnd("immersiveengineering:insulating_glass")
+    .produceItem("scrapped:basic_device_upgrade")
+    .requireButtonPressed("engrave_button")
+    .resetOnError()
+    
+  e.recipes.custommachinery.custom_machine("scrapped:disc_engraver", 200)
+    .requireItemOnEnd("enderio:grains_of_infinity")
+    .requireItemOnEnd("immersiveengineering:component_electronic_adv")
+    .requireItemOnEnd("immersiveengineering:insulating_glass")
+    .produceItem("scrapped:double_device_upgrade")
+    .requireButtonPressed("engrave_button")
+    .resetOnError()
+});

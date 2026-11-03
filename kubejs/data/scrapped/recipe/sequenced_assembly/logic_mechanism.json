@@ -1,0 +1,49 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "tag": "c:plates/copper"
+  },
+  "transitional_item": {
+    "item": { "id": "scrapped:incomplete_logic_mechanism" }
+  },
+  "loops": 1,
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "tag": "c:plates/copper"
+        },
+        {
+          "item": "scrapped:shiny_tubes"
+        }
+      ],
+      "results": [
+        {
+          "item": { "id": "create:copper_sheet" }
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "tag": "c:plates/copper"
+        },
+        {
+          "item": "scrapped:redstone_coil"
+        }
+      ],
+      "results": [
+        {
+          "item": { "id": "create:copper_sheet" }
+        }
+      ]
+    }
+  ],
+  "results": [
+    {
+      "item": { "id": "scrapped:logic_mechanism" }
+    }
+  ]
+}

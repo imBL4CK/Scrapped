@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:empty",
+          "weight": 4
+        },
+        {
+          "type": "minecraft:item",
+          "name": "scrapped:tower_key",
+          "weight": 4
+        },
+        {
+          "type": "minecraft:item",
+          "name": "scrapped:ominous_tower_key",
+          "weight": 2
+        }
+      ]
+    }
+  ]
+}
