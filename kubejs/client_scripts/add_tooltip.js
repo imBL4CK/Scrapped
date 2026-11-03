@@ -6,6 +6,7 @@ ItemEvents.modifyTooltips((e) => {
       "scrapped:magmatic_dynamo",
       "scrapped:bronze_drum",
       "scrapped:redstone_furnace",
+      "scrapped:alchemists_vision",
     ],
     { shift: false },
     (info) => {
@@ -26,5 +27,8 @@ ItemEvents.modifyTooltips((e) => {
   });
   e.modify("scrapped:redstone_furnace", { shift: true }, (info) => {
     info.insert(1, Text.translate("info.scrapped.redstone_furnace.0"));
+  });
+  e.modify("scrapped:alchemists_vision", { shift: true }, (info) => {
+    info.insert(1, Text.translate("info.scrapped.alchemists_vision.0"));
   });
 });

@@ -16,3 +16,4 @@
 - Resourpack Modifiers
 - waterlog nos blocos com builder customizado
 - minerios do modpack com versao no grimspiral
+- colocar tooltips na: Fractionary still, fluid encapsulator, magma crucible, disc engraver

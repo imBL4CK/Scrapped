@@ -84,10 +84,13 @@ StartupEvents.registry("block", (e) => {
     
     e.create("scrapped:aspect_node", "cardinal")
         .box(0, 0, 0.49, 1, 1, 0.51, false)
+        .property(global.ASPECT_NODE_STATE)
         .opaque(true)
         .notSolid()
         .noValidSpawns(true)
         .suffocating(false)
         .unbreakable()
         .noCollision();
+
+    e.create("scrapped:node_stabilizer", "custommachinery:custom_machine");
 })

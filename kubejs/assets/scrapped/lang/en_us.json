@@ -7,6 +7,7 @@
     "info.scrapped.redstone_energy_cell.0": "§eA Redstone Energy Cell is a block capable of storing energy within its core.\n\n§6Block Stats:\n §9⚡ 512.000 Energy Capacity\n ⚡ 4.000 Energy Transfer",
     "info.scrapped.bronze_drum.0": "§eA fluid container that can store up to 16 buckets. It retains its contents when broken.\n\n§6Block Stats:\n §9🪣 16.000 Fluid Capacity\n 🪣 1.000 Fluid Transfer",
     "info.scrapped.redstone_furnace.0": "§eA powerful workstation that works like a furnace, but uses energy as fuel. Supports upgrades for improvements.\n\n§6Block Stats:\n §9⚡ 64.000 Energy Capacity\n ⚡ 4.000 Energy Transfer",
+    "info.scrapped.alchemists_vision.0": "A powerful lens that allows one to see things §dbeyond the ordinary§r.\n\n└ It works like §9engineer goggles.",
 
     "subtitles.techpack.machine_generic.running": "Machine Running",
     "subtitles.techpack.machine_generic_heavy.running": "Heavy Machine Running",

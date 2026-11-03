@@ -44,7 +44,7 @@
 	#The resolution at which the prismograph takes snapshots.
 	#Higher values look sharper but cost more memory and bandwidth
 	#Allowed Values: x16, x32, x64, x128, x256
-	PrismographResolution = "x64"
+	PrismographResolution = "x128"
 	#Posterization quant step: 1 = full color, higher = coarser bands (~10 reads retro).
 	#Changing this is costless, it is purely to taste
 	# Default: 10

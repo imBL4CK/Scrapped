@@ -92,9 +92,8 @@
   "jadeaddons": {
     "equipment_requirement": ""
   },
-  "exposure": {
-    "lightroom": true,
-    "photograph_frame": true
+  "spawn": {
+    "stickbug_as_item": true
   },
   "enderio": {
     "soul_bound": true
