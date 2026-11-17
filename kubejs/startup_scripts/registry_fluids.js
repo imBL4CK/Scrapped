@@ -61,6 +61,19 @@ StartupEvents.registry("fluid", (e) => {
             fluidType.canDrown(true);
         })
     
+    //Steam
+    e.create("scrapped:corruption")
+        .stillTexture("scrapped:fluid/corruption_still")
+        .flowingTexture("scrapped:fluid/corruption_flow")
+        .tag("c:corruption")
+        .type(fluidType => {
+            fluidType.density(0);
+            fluidType.viscosity(0);
+            fluidType.temperature(300); 
+            fluidType.canSwim(false);
+            fluidType.canDrown(true);
+        })
+
     //Crude Oil
     e.create("scrapped:crude_oil", "thick")
         .stillTexture("scrapped:fluid/crude_oil_still")

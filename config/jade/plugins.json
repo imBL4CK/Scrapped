@@ -89,6 +89,10 @@
   "custommachinery": {
     "machine_component_provider": true
   },
+  "tesseract": {
+    "tesseract": true,
+    "remove_default": true
+  },
   "jadeaddons": {
     "equipment_requirement": ""
   },

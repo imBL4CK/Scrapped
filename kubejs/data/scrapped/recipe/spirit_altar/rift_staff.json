@@ -1,0 +1,42 @@
+{
+  "type": "malum:spirit_infusion",
+  "extraInputs": [
+    {
+      "tag": "c:gems/quartz",
+      "count": 2
+    },
+    {
+      "item": "malum:malignant_lead",
+      "count": 1
+    },
+    {
+      "item": "malum:warp_flux",
+      "count": 4
+    }
+  ],
+  "input": {
+    "item": "malum:totemic_staff",
+    "count": 1
+  },
+  "result": {
+    "id": "scrapped:rift_staff"
+  },
+  "spirits": [
+    {
+      "type": "malum:arcane",
+      "count": 16
+    },
+    {
+      "type": "malum:eldritch",
+      "count": 8
+    },
+    {
+      "type": "malum:wicked",
+      "count": 8
+    },
+    {
+      "type": "malum:sacred",
+      "count": 8
+    }
+  ]
+}

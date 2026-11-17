@@ -25,6 +25,8 @@
 	attractorRangeColor = "8B0000"
 	#The color of the range box of the Wireless Charger
 	wirelessChargerRangeColor = "C7CC2A"
+	#The color of the range box of the Farming Station
+	farmingStationRangeColor = "FFA500"
 
 [ioconfig]
 	#Neighbour Transparency [0-1]

@@ -44,9 +44,15 @@
 	#The resolution at which the prismograph takes snapshots.
 	#Higher values look sharper but cost more memory and bandwidth
 	#Allowed Values: x16, x32, x64, x128, x256
-	PrismographResolution = "x128"
+	PrismographResolution = "x256"
 	#Posterization quant step: 1 = full color, higher = coarser bands (~10 reads retro).
 	#Changing this is costless, it is purely to taste
 	# Default: 10
 	# Range: 1 ~ 20
 	PrismographPosterization = 10
+	#Most trinkets one player's ocarina commands at once, nearest first. 0 removes the limit
+	# Default: 0
+	# Range: 0 ~ 100000
+	OcarinaMaxTrinkets = 0
+	#Enadrakes follow mobGriefing like vanilla mobs: with it off they stop taking items, planting, harvesting and building refuges
+	EnadrakesRespectMobGriefing = false

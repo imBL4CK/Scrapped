@@ -16,6 +16,10 @@ enableNameTagShearing = true
 # Allow renaming name tags by right-clicking them.
 # default: true
 enableRenameScreen = true
+# Allow styling text with Placeholder API's QuickText format.
+# Requires Placeholder API.
+# default: true
+allowQuickText = true
 # Backports the name tag recipe from 26.1
 # default: true
 enableBackportedCraftingRecipe = true

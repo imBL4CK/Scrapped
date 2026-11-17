@@ -5,3 +5,5 @@ triggerKeymappingOnRelease = false
 #ONLY USE THIS IF YOU KNOW WHAT YOU'RE DOING
 #Ignore invalid key checks in InputConstants#isKeyDown
 ignoreInvalidKeyChecks = false
+#If true, pressing a bundle key opens its menu until you press it again, pick an entry or open a screen. If false, the menu is only open while the key is held
+toggleMenu = false

@@ -1,0 +1,15 @@
+{
+  "type": "create:crushing",
+  "processing_time": 200,
+  "ingredients": [
+    {
+      "tag": "c:gems/quartz"
+    }
+  ],
+  "results": [
+    {
+      "id": "scrapped:quartz_sliver",
+      "count": 1
+    }
+  ]
+}

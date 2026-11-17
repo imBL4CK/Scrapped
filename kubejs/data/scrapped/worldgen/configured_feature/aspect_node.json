@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:simple_block",
+  "config": {
+    "to_place": {
+      "type": "minecraft:randomized_int_state_provider",
+      "property": "aspect",
+      "values": {
+        "type": "minecraft:uniform",
+        "min_inclusive": 0,
+        "max_inclusive": 7
+      },
+      "source": {
+        "type": "minecraft:rotated_block_provider",
+        "state": {
+          "Name": "scrapped:aspect_node"
+        }
+      }
+    }
+  }
+}

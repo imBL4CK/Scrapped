@@ -19,6 +19,12 @@
           "item": "dynamiducts:fluid_duct_hardened"
         },
         "count": 1
+      },
+      {
+        "ingredient": {
+          "tag": "c:plastics"
+        },
+        "count": 1
       }
     ],
     "result": {

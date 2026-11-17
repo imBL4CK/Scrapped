@@ -9,18 +9,16 @@
     "minecraft:rabbit"
   ],
   "Scary Mobs": [
-    "#minecraft:skeletons",
-    "#minecraft:arthropod",
-    "#minecraft:illager",
-    "minecraft:zombie",
-    "minecraft:zombie_villager",
-    "minecraft:husk",
-    "minecraft:drowned",
+    "#minecraft:undead",
+    "#minecraft:raiders",
     "minecraft:creeper",
     "minecraft:enderman",
-    "minecraft:witch",
-    "minecraft:ravager",
-    "minecraft:warden"
+    "minecraft:warden",
+    "minecraft:creaking",
+    "minecraft:spider",
+    "minecraft:cave_spider",
+    "minecraft:silverfish",
+    "minecraft:endermite"
   ],
   "Soft Blocks": [
     "#minecraft:wool",
@@ -66,5 +64,6 @@
   "franticDurationTicks": 200,
   "franticRepathTicks": 20,
   "franticMoveSpeed": 1.35,
-  "enable_detailed_debug_information": false
+  "enable_detailed_debug_information": false,
+  "comfortFeedbackBudgetPerAreaTick": 64
 }

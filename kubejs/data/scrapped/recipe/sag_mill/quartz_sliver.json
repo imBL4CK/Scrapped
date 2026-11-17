@@ -1,0 +1,15 @@
+{
+  "type": "enderio:sag_milling",
+  "energy": 2400,
+  "input": {
+      "tag": "c:gems/quartz"
+  },
+  "outputs": [
+    {
+      "item": {
+        "id": "scrapped:quartz_sliver",
+        "count": 1
+      }
+    }
+  ]
+}

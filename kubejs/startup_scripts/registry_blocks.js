@@ -82,6 +82,7 @@ StartupEvents.registry("block", (e) => {
     e.create("scrapped:magma_crucible", "custommachinery:custom_machine");
     e.create("scrapped:fractionating_still", "custommachinery:custom_machine");
     
+    e.create("scrapped:node_stabilizer", "custommachinery:custom_machine");
     e.create("scrapped:aspect_node", "cardinal")
         .box(0, 0, 0.49, 1, 1, 0.51, false)
         .property(global.ASPECT_NODE_STATE)
@@ -91,6 +92,4 @@ StartupEvents.registry("block", (e) => {
         .suffocating(false)
         .unbreakable()
         .noCollision();
-
-    e.create("scrapped:node_stabilizer", "custommachinery:custom_machine");
 })

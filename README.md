@@ -25,4 +25,10 @@ The project is under the license [Dont be a jerk](https://github.com/evantahler/
 * [axy's Honey Note-ify](https://modrinth.com/resourcepack/axys-honey-note-ify)
 
 ## About
-[imBL4CK - 2026](https://github.com/imBL4CK)
+<p align="center">
+  <a href="https://discord.gg/KSsHCn3eww"><img src="https://i.imgur.com/sx8h6Yz.png" alt="Discord" width="168"></a>
+  &nbsp;
+  <a href="https://linktr.ee/bl4ck_"><img src="https://i.imgur.com/mOJ6NNH.png" alt="Documentation" width="168"></a>
+  &nbsp;
+  <a href="https://github.com/imBL4CK/Scrapped"><img src="https://i.imgur.com/XejoVXB.png" alt="Repository" width="168"></a>
+</p>

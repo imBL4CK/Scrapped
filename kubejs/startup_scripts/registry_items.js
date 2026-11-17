@@ -17,5 +17,7 @@ StartupEvents.registry("item", (e) => {
     e.create("scrapped:energy_capacity_augment").rarity("uncommon");
     e.create("scrapped:basic_device_upgrade").unstackable().rarity("uncommon").tag("scrapped:device_upgrades");
     e.create("scrapped:double_device_upgrade").unstackable().rarity("uncommon").tag("scrapped:device_upgrades");
+    e.create("scrapped:rift_staff").unstackable().rarity("uncommon");
+    e.create("scrapped:quartz_sliver");
 })
     

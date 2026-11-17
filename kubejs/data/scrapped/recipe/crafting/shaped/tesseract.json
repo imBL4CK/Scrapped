@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "OEO",
+    "PLP",
+    "OEO"
+  ],
+  "key": {
+    "O": {
+      "tag": "c:obsidians"
+    },
+    "E": {
+      "tag": "c:ingots/enderium"
+    },
+    "L": {
+      "item": "malum:convoluted_lens"
+    },
+    "P": {
+      "item": "malum:malignant_pewter_plating"
+    }
+  },
+  "result": {
+    "id": "tesseract:tesseract",
+    "count": 1
+  }
+}

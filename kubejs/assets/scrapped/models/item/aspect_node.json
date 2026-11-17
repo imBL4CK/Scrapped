@@ -5,35 +5,35 @@
 	},
 	"overrides": [
 		{
-		  "predicate": { "custom_model_data": 0 },
+		  "predicate": { "scrapped:aspect": 0 },
 		  "model": "scrapped:block/aspect_node_sacred"
 		},
 		{
-		  "predicate": { "custom_model_data": 1 },
+		  "predicate": { "scrapped:aspect": 1 },
 		  "model": "scrapped:block/aspect_node_wicked"
 		},
 		{
-		  "predicate": { "custom_model_data": 2 },
+		  "predicate": { "scrapped:aspect": 2 },
 		  "model": "scrapped:block/aspect_node_arcane"
 		},
 		{
-		  "predicate": { "custom_model_data": 3 },
+		  "predicate": { "scrapped:aspect": 3 },
 		  "model": "scrapped:block/aspect_node_eldritch"
 		},
 		{
-		  "predicate": { "custom_model_data": 4 },
+		  "predicate": { "scrapped:aspect": 4 },
 		  "model": "scrapped:block/aspect_node_aerial"
 		},
 		{
-		  "predicate": { "custom_model_data": 5 },
+		  "predicate": { "scrapped:aspect": 5 },
 		  "model": "scrapped:block/aspect_node_infernal"
 		},
 		{
-		  "predicate": { "custom_model_data": 6 },
+		  "predicate": { "scrapped:aspect": 6 },
 		  "model": "scrapped:block/aspect_node_aqueous"
 		},
 		{
-		  "predicate": { "custom_model_data": 7 },
+		  "predicate": { "scrapped:aspect": 7 },
 		  "model": "scrapped:block/aspect_node_earthen"
 		}
 	]

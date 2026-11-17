@@ -1,0 +1,11 @@
+{
+    "type": "malum:spirit_focusing",
+    "time": 900,
+    "durability": 2,
+    "ingredient": { "item": "scrapped:quartz_impetus" },
+    "output": { "id": "scrapped:quartz_node", "count": 3 },
+    "spirits": [
+      { "type": "earthen", "count": 2 },
+      { "type": "infernal", "count": 2 }
+    ]
+  }

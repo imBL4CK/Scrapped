@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:block",
+  "random_sequence": "scrapped:blocks/aspect_node",
+  "pools": [
+    {
+      "rolls": 1,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "scrapped:aspect_node",
+          "functions": [
+            {
+              "function": "minecraft:copy_state",
+              "block": "scrapped:aspect_node",
+              "properties": [
+                "aspect"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -10,5 +10,11 @@
     "target": "#c:ingots/iron",
     "replacement": "enderio:dark_steel_ingot",
     "id": "enderio:void_chassis"
+  },
+  {
+    "action": "replace_input",
+    "target": "minecraft:glass",
+    "replacement": "#c:plastics",
+    "id": "dynamiducts:energy_duct_basic"
   }
 ]
